@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf%3F1df927c4626e072d7cc017c3d3023445") format("truetype"),
+url("../fonts/flaticon.woff%3F1df927c4626e072d7cc017c3d3023445") format("woff"),
+url("../fonts/flaticon.woff2%3F1df927c4626e072d7cc017c3d3023445") format("woff2"),
+url("../fonts/flaticon.eot%3F1df927c4626e072d7cc017c3d3023445") format("embedded-opentype"),
+url("../fonts/flaticon.svg%3F1df927c4626e072d7cc017c3d3023445") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-up-arrow:before {
+    content: "\f101";
+}
+.flaticon-zooming:before {
+    content: "\f102";
+}
+.flaticon-earth-globe:before {
+    content: "\f103";
+}
+.flaticon-mill:before {
+    content: "\f104";
+}
+.flaticon-left-arrow:before {
+    content: "\f105";
+}
+.flaticon-right-arrow:before {
+    content: "\f106";
+}
+.flaticon-play-button:before {
+    content: "\f107";
+}
+.flaticon-geology:before {
+    content: "\f108";
+}
+.flaticon-happiness:before {
+    content: "\f109";
+}
+.flaticon-quote:before {
+    content: "\f10a";
+}
+.flaticon-pdf:before {
+    content: "\f10b";
+}
+.flaticon-building:before {
+    content: "\f10c";
+}
+.flaticon-cancel:before {
+    content: "\f10d";
+}
+.flaticon-building-1:before {
+    content: "\f10e";
+}
+.flaticon-office-building:before {
+    content: "\f10f";
+}
