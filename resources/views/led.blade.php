@@ -146,15 +146,6 @@
                                         </li>  
                                         <li ><a href="{{url('/project')}}">Projects</a>
                                         </li>
-                                        <li class="dropdown"><a href="{{url('/')}}">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Products</a></li>
-                                                <li><a href="shop-details.html">Single Product</a></li>
-                                                <li><a href="cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="my-account.html">My Account</a></li>
-                                            </ul>
-                                        </li>   
                                         <li><a href="{{url('/contact')}}">Contact</a></li>   
                                     </ul>
                                 </div>
@@ -383,7 +374,6 @@
                                         <li><a href="{{url('about/team')}}">Our Team</a></li>
                                         <li><a href="{{url('services/heater')}}">Services</a></li>
                                         <li><a href="{{url('/project')}}">Projects Portfolio</a></li>
-                                        <li><a href="{{url('shop')}}">Shop</a></li>
                                         <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -400,7 +390,6 @@
                                         <li><a href="index.html">Privacy Policy</a></li>
                                         <li><a href="index.html">Sitemap</a></li>
                                         <li><a href="index.html">Updates</a></li>
-                                        <li><a href="index.html">Offers</a></li>
                                         <li><a href="index.html">Estimation</a></li>
                                     </ul>
                                 </div>

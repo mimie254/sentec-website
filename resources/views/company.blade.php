@@ -43,23 +43,23 @@
                     <div class="animation-preloader">
                         <div class="spinner"></div>
                         <div class="txt-loading">
+                            <span data-text-preloader="s" class="letters-loading">
+                                s
+                            </span>
                             <span data-text-preloader="e" class="letters-loading">
                                 e
                             </span>
                             <span data-text-preloader="n" class="letters-loading">
                                 n
                             </span>
+                            <span data-text-preloader="t" class="letters-loading">
+                                t
+                            </span>
                             <span data-text-preloader="e" class="letters-loading">
                                 e
                             </span>
-                            <span data-text-preloader="r" class="letters-loading">
-                                r
-                            </span>
-                            <span data-text-preloader="g" class="letters-loading">
-                                g
-                            </span>
-                            <span data-text-preloader="o" class="letters-loading">
-                                o
+                            <span data-text-preloader="c" class="letters-loading">
+                                c
                             </span>
                         </div>
                     </div>  
@@ -145,15 +145,7 @@
                                         </li> 
                                         <li ><a href="{{url('/project')}}">Projects</a>
                                         </li>
-                                        <li class="dropdown"><a href="index.html">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Products</a></li>
-                                                <li><a href="shop-details.html">Single Product</a></li>
-                                                <li><a href="cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="my-account.html">My Account</a></li>
-                                            </ul>
-                                        </li>   
+                                          
                                         <li><a href="{{url('/contact')}}">Contact</a></li>   
                                     </ul>
                                 </div>
@@ -316,11 +308,13 @@
                             <div class="content-box">
                                 <div class="text">
                                     <h5>Welcome to SENTIMENTAL ENERGY</h5>
-                               <p> Sentimental Energy Company Limited is a duly registered company in Kenya since 2012 and was incorporated in the year 2016. It was formed out of a desire to provide low cost energy solutions to the region’s domestic, commercial and industrialization sector with emphasis on solar energy and low load consuming Lighting solutions. We design, develop, install and maintain solar power, solar water heating and power backup systems and LED lighting solutions.<br>
-
-                                We are also involved massively in sales and distribution of solar panels, charge controllers, inverters, batteries and LED lights. The company has over 6 years of experience in the renewable energy industry centered on actual hands on experiences in design, sizing, installation and commissioning, energy audit and management.<br>
-
-                                SENTEC. is owned by a team of professionals with competent skills and experience in their respective fields of, energy systems design, installation and management, financial project management and sales.</p>
+                               <p> SENTEC Solar Ltd is a renewable energy company operating in the solar energy space for the past 6
+                                 years. The inception of our company was out of the desire to provide low-cost energy solutions cuttingacross all sectors (domestic, commercial, industrialization sectors).
+                                 Our main focus is offering an end-toend experience to our clients through our solar solutions; solutions offered include but not limited to lighting & heating.<br>
+                                 <br>
+                                The SENTEC team consists of highly motivated professionals who are passionate about impacting lives/
+                                 businesses through the uptake of solar solutions. Our team is guided by the below company mission and
+                                 visions.</p>
                                 </div>
                             </div>
                                 <div class="author-box">
@@ -374,10 +368,6 @@
                                             <h5>Mission Statement</h5>
                                             <br>
                                             <p>To create social economic opportunities to our clients through provision of affordable, sustainable and reliable energy solutions.</p>
-                                            <br>
-                                            To become the leader in the alternative energy movement that takes place in the region with emphasis on the affordable sustainable and reliable solar power, water heating and LED lighting solutions.</p>
-
-
                                         </div>
                                     </div>
                                 </div>
@@ -579,7 +569,6 @@
                                         <li><a href="{{url('about/team')}}">Our Team</a></li>
                                         <li><a href="{{url('services/heater')}}">Services</a></li>
                                         <li><a href="{{url('/project')}}">Projects Portfolio</a></li>
-                                        <li><a href="{{url('shop')}}">Shop</a></li>
                                         <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -596,7 +585,6 @@
                                         <li><a href="index.html">Privacy Policy</a></li>
                                         <li><a href="index.html">Sitemap</a></li>
                                         <li><a href="index.html">Updates</a></li>
-                                        <li><a href="index.html">Offers</a></li>
                                         <li><a href="index.html">Estimation</a></li>
                                     </ul>
                                 </div>

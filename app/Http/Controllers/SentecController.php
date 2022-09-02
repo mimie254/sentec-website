@@ -42,4 +42,26 @@ class SentecController extends Controller
     {
         return view ('team');
     }
+    public function health()
+    {
+        return view ('health_details');
+    }
+    public function home()
+    {
+        return view ('home_details');
+    }
+    public function public()
+    {
+        return view ('public_details');
+    }
+    public function commercial()
+    {
+        return view ('commercial_details');
+    }
+    public function education()
+    {
+        return view ('education_details');
+    }
+    
+    
 }

@@ -8,23 +8,23 @@
 <title>Sentec Ltd</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
-<link href="{{asset('assets/css/font-awesome-all.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/flaticon.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/owl.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/jquery.fancybox.min.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/animate.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/jquery-ui.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/theme-color.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/responsive.css')}}" rel="stylesheet">
+<link href="assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="assets/css/flaticon.css" rel="stylesheet">
+<link href="assets/css/owl.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/jquery-ui.css" rel="stylesheet">
+<link href="assets/css/theme-color.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -99,10 +99,10 @@
                                 </li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="{{url('fb link')}}"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="{{url('linkedin link')}}"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="{{url('twitter link')}}"><i class="fab fa-lg fa-twitter"></i></a></li>
-                                <li><a href="{{url('youtube link')}}"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                     <div class="outer-box clearfix">
                         <div class="menu-area pull-left clearfix">
                             <div class="logo-box pull-left">
-                                <figure class="logo"><a href="{{url('/')}}"><img src="{{(asset('assets/images/logo.png'))}}" alt=""></a></figure>
+                                <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
                             </div>
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -125,7 +125,7 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current"><a href="{{url('/')}}">Home</a>
+                                        <li ><a href="{{('/')}}">Home</a>
                                             
                                         </li>
                                         <li class="dropdown"><a href="{{url('/')}}">About</a>
@@ -142,9 +142,10 @@
                                                 <li><a href="{{url('services/solar')}}">Solar Power Systems</a></li>
                             
                                             </ul>
-                                        </li>  
-                                        <li ><a href="{{url('/project')}}">Projects</a>
+                                        </li> 
+                                        <li><a href="{{url('/project')}}">Projects</a>
                                         </li>
+                                          
                                         <li><a href="{{url('/contact')}}">Contact</a></li>   
                                     </ul>
                                 </div>
@@ -152,7 +153,7 @@
                         </div>
                         <div class="nav-right pull-right clearfix">
                             <div class="support-box">
-                                <h5><i class="fas fa-headphones"></i>Off: <span>+254 725 445 459</span></h5>
+                                <h5><i class="fas fa-headphones"></i><span>+254 725 445 459</span></h5>
                                 <ul class="info-box">
                                     <li>
                                         <i class="far fa-map"></i>
@@ -235,9 +236,9 @@
             </div>
         </header>
         <!-- main-header end -->
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
+       
+         <!-- Mobile Menu  -->
+         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
             
@@ -262,7 +263,8 @@
                     </ul>
                 </div>
             </nav>
-        </div><!-- End Mobile Menu -->
+        </div>
+        <!-- End Mobile Menu -->
 
 
         <!-- Page Title -->
@@ -270,11 +272,12 @@
             <div class="auto-container">
                 <div class="content-box clearfix">
                     <div class="title">
-                        <h1>Contact Us</h1>
+                        <h1>Detail Page</h1>
                     </div>
                     <ul class="bread-crumb clearfix pull-right">
                         <li><a href="index.html">Home</a></li>
-                        <li>Contact</li>
+                        <li>Projects</li>
+                        <li>PUBLIC WORKS/ GOVERNMENT SECTOR</li>
                     </ul>
                 </div>
             </div>
@@ -282,171 +285,52 @@
         <!-- End Page Title -->
 
 
-        <!-- contact-info-two -->
-        <section class="contact-info-two">
+        <!-- project-details -->
+        <section class="project-details">
             <div class="auto-container">
-                <div class="sec-title centred">
-                    <div class="title-top">
-                        <div class="shape-box">
-                            <span class="shape shape-1">//</span>
-                            <span class="shape shape-2">\\</span>
-                        </div>
-                        <h6>Want quick help?</h6>
-                    </div>
-                    <h2>Good Time to Connect With Us</h2>
-                    <div class="title-text">
-                        <p>Desire that they cannot foresee the pain and trouble that are  bound <br />equal blame belongs to their duty.</p>
-                    </div>
-                </div>
                 <div class="row clearfix">
-                    <div class="col-lg-4 col-md-12 col-sm-12 info-column">
-                        <div class="inner-box left-column">
-                            <div class="shape" style="background-image: url(assets/images/icons/icons-shape-1.png);"></div>
-                            <div class="single-info-box">
-                                <div class="icon-box"><i class="far fa-map"></i></div>
-                                <h6>Address</h6>
-                                <span>P.O. BOX 103690 – 00101,NAIROBI, KENYA.</span>
-                            </div>
-                            <div class="single-info-box">
-                                <div class="icon-box"><i class="fas fa-headphones"></i></div>
-                                <h6>Sales Team</h6>
-                                <span><a href="tel:+254 725 445 459">+254 725 445 459</a></span>
-                            </div>
-                            <div class="single-info-box">
-                                <div class="icon-box"><i class="far fa-clock"></i></div>
-                                <h6>Off. Hrs</h6>
-                                <span>Mon - Sat: 09.00 to 06.30</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 image-column">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image-box">
-                            <figure class="image clearfix"><img src="assets/images/resource/contact-1.png" alt=""></figure>
+                            <figure class="image image-1"><img src="assets/images/gallery/protfolio-27.jpg" alt=""></figure>
+                            <div class="overlay-content">
+                                <h5><a href="portfolio-details.html">Ministry of Housing- Shauri Moyo; Kisumu</a></h5>
+                                </div>
+                            </div>
+                            <div class="image-box">
+                            <figure class="image image-2"><img src="assets/images/gallery/protfolio-28.jpg" alt=""></figure>
+                            <div class="overlay-content">
+                                <h5><a href="portfolio-details.html">Maanzoni Lodges- Machakos</a></h5>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 info-column">
-                        <div class="inner-box text-right right-column">
-                            <div class="shape" style="background-image: url(assets/images/icons/icons-shape-2.png);"></div>
-                            <div class="single-info-box">
-                                <div class="icon-box"><i class="far fa-envelope-open"></i></div>
-                                <h6>Email</h6>
-                                <span><a href="mailto:info@sentecltd.com">INFO [AT] SENTECLTD.COM</a></span>
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content-box">
+                            <div class="text">
+                                <h3>PUBLIC WORKS/ GOVERNMENT SECTOR</h3>
+                                <p>SENTEC’s work is not limited to the private sector but has also been of great benefit to the public sector as a whole. Bearing in mind the varying needs of the various institutions within this sector our company has tailored projects aimed at addressing their specific pain points with the aim of providing a reliable energy source.</p>
+                                Some of the projects that have been undertaken include;
+                                <p><h4>Ministry of Housing- Shauri Moyo; Kisumu</h4>
+                                Description: Civil servants housing scheme- 250pcs of 250 liters SWH Project</p>
+                                <p><h4>Maanzoni Lodges- Machakos</h4>
+                                Description: 278 SWH systems 
+                                <p><h4>Mombasa Port Area Road Development- Street lighting (Mwache Junction, Tsunza- Mteza section)
+                                </h4>
+                                Description: The street lighting is still underway. SENTEC has been charged with the responsibility of engineering, procurement, installation. Commissioning, testing, operation & management.</p>
+                                </p>
+                                <p><h4>CID Headquarters – Kiambu Road, Nairobi</h4>
+                                Description:2,000 Liters of centralized solar water heating systems</p>
                             </div>
-                            <div class="single-info-box">
-                                <div class="icon-box"><i class="fas fa-headphones"></i></div>
-                                <h6>Marketing</h6>
-                                <span><a href="tel: +254 709 750 074"> +254 709 750 074</a></span>
-                            </div>
-                            <div class="single-info-box">
-                                <div class="icon-box"><i class="fas fa-question"></i></div>
-                                <h6>Our Faq</h6>
-                                <span>Checkout your answers</span>
-                            </div>
+                        
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- contact-info-two end -->
+        <!-- project-details end -->
 
 
-        <!-- contact-form-section -->
-        <section class="contact-form-section ">
-       
-            <div class="row clearfix">
-            <div class="col-lg-6 col-md-6 col-sm-12 column">
-                <div class="footer-widget logo-widget">
-                <div class="form-inner">
-                    <div class="text">
-                        <h3>Send Your Message</h3>
-                        <p>Please feel free to get in touch using the form below. We'd love to hear for you.</p>
-                    </div>
-                    <form method="post" action="https://st.ourhtmldemo.com/new/Energo/sendemail.php" id="contact-form" class="default-form"> 
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                <div class="form-group">
-                                    <i class="far fa-user"></i>
-                                    <input type="text" name="username" placeholder="Your Name" required="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                <div class="form-group">
-                                    <i class="far fa-envelope-open"></i>
-                                    <input type="email" name="email" placeholder="Email Address" required="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 column">
-                                <div class="form-group">
-                                    <i class="far fa-phone"></i>
-                                    <input type="text" name="phone" required="" placeholder="Phone Number">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 column">
-                                <div class="form-group">
-                                    <i class="far fa-desktop"></i>
-                                    <input type="text" name="subject" required="" placeholder="Website">
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 column">
-                                <div class="form-group">
-                                    <i class="far fa-text-width"></i>
-                                    <textarea name="message" placeholder="Your Message..."></textarea>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 column">
-                                <div class="message-btn">
-                                    <button class="theme-btn btn-one" type="submit" name="submit-form"><i class="flaticon-right-arrow"></i>Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                </div>
-            </div>
-            <div class="row clearfix"> 
-                <div class="col-lg-6 col-md-6 col-sm-12 column">
-            
-                     <div class="footer-widget logo-widget">
-                        <div class="map-inner ">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.753488872804!2d36.841846714274794!3d-1.3237658360403999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11be560b5283%3A0x9dacf93424a76a51!2sThe%20Nextgen%20Mall!5e0!3m2!1sen!2ske!4v1661844736511!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                    <script src="assets/js/map-helper.js"></script>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         </div>
-     
-        </section>
-        
-        <!-- contact-form-section end -->
-
-
-        <!-- google-map-section -->
-        <!--section class="google-map-section">
-            <div class="map-inner">
-                <div 
-                    class="google-map" 
-                    id="contact-google-map" 
-                    data-map-lat="40.712776" 
-                    data-map-lng="-74.005974" 
-                    data-icon-path="assets/images/icons/map-marker.png"  
-                    data-map-title="Brooklyn, New York, United Kingdom" 
-                    data-map-zoom="12" 
-                    data-markers='{
-                        "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","assets/images/icons/map-marker.png"]
-                    }'>
-
-                </div>
-            </div>
-        </!--section>
-        <!-- google-map-section end -->
-        <!-- map script -->
-        <!-- google-map-section -->
-        
-
-         <!-- main-footer -->
-         <footer class="main-footer bg-color-2">
+        <!-- main-footer -->
+        <footer class="main-footer bg-color-2">
             <div class="footer-top">
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -518,13 +402,6 @@
     </div>
 
 
-        <!-- scroll to top -->
-        <button class="scroll-top scroll-to-target" data-target="html">
-            <i class="flaticon-up-arrow"></i>
-        </button>
-    </div>
-
-
     <!-- jequery plugins -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -540,13 +417,10 @@
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/jquery.lettering.min.js"></script>
     <script src="assets/js/jquery.circleType.js"></script>
-    <script src="assets/js/bxslider.js"></script>  
-    <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
-
-    
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
 
 </body><!-- End of .page_wrapper -->
 </html>
+
