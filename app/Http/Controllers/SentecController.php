@@ -63,5 +63,4 @@ class SentecController extends Controller
         return view ('education_details');
     }
     
-    
 }

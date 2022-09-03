@@ -8,23 +8,23 @@
 <title>Sentec Ltd</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
-<link href="{{asset('assets/css/font-awesome-all.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/flaticon.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/owl.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/jquery.fancybox.min.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/animate.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/jquery-ui.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/theme-color.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-<link href="{{asset('assets/css/responsive.css')}}" rel="stylesheet">
+<link href="assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="assets/css/flaticon.css" rel="stylesheet">
+<link href="assets/css/owl.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/jquery-ui.css" rel="stylesheet">
+<link href="assets/css/theme-color.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -99,10 +99,10 @@
                                 </li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="{{url('fb link')}}"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="{{url('linkedin link')}}"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="{{url('twitter link')}}"><i class="fab fa-lg fa-twitter"></i></a></li>
-                                <li><a href="{{url('youtube link')}}"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                     <div class="outer-box clearfix">
                         <div class="menu-area pull-left clearfix">
                             <div class="logo-box pull-left">
-                                <figure class="logo"><a href="{{url('/')}}"><img src="{{(asset('assets/images/logo.png'))}}" alt=""></a></figure>
+                                <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
                             </div>
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -125,27 +125,13 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                    <li class="current"><a href="{{url('/')}}">Home</a>
+                                        <li ><a href="{{('/')}}">Home</a>
                                             
                                         </li>
                                         <li class="dropdown"><a href="{{url('/')}}">About</a>
                                             <ul>
                                                 <li><a href="{{url('/company')}}">Company</a></li>
-                                                <li ><a href="{{url('/team')}}">Team</a>
-                                                </li>
-                                                <li><a href="{{url('faq.html')}}">Faq’s</a></li>
-                                                <li class="dropdown"><a href="{{url('index.html')}}">Portfolio</a>
-                                                    <ul>
-                                                        <li><a href="{{url('portfolio.html')}}">2 Columns</a></li>
-                                                        <li><a href="{{url('portfolio-2.html')}}">3 Columns</a></li>
-                                                        <li><a href="{{url('portfolio-3.html')}}">Fullwidth</a></li>
-                                                        <li><a href="{{url('portfolio-4.html')}}">Masonry</a></li>
-                                                        <li><a href="{{url('portfolio-details.html')}}">Detail Page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="{{url('pricing.html')}}">Pricing & Plan</a></li>
-                                                <li><a href="{{url('error.html')}}">404</a></li>
-                                                <li><a href="{{url('coming-soon.html')}}">Coming Soon</a></li>
+                                                <li ><a href="{{url('/team')}}">Team</a></li>
                                             </ul>
                                         </li> 
                                         <li class="dropdown"><a href="{{url('/')}}">Services</a>
@@ -156,18 +142,10 @@
                                                 <li><a href="{{url('/solar')}}">Solar Power Systems</a></li>
                             
                                             </ul>
-                                        </li>  
+                                        </li> 
                                         <li ><a href="{{url('/project')}}">Projects</a>
                                         </li>
-                                        <li class="dropdown"><a href="{{url('/')}}">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Products</a></li>
-                                                <li><a href="shop-details.html">Single Product</a></li>
-                                                <li><a href="cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="my-account.html">My Account</a></li>
-                                            </ul>
-                                        </li>   
+                                          
                                         <li><a href="{{url('/contact')}}">Contact</a></li>   
                                     </ul>
                                 </div>
@@ -175,7 +153,7 @@
                         </div>
                         <div class="nav-right pull-right clearfix">
                             <div class="support-box">
-                                <h5><i class="fas fa-headphones"></i>Off: <span>+254 725 445 459</span></h5>
+                                <h5><i class="fas fa-headphones"></i><span>+254 725 445 459</span></h5>
                                 <ul class="info-box">
                                     <li>
                                         <i class="far fa-map"></i>
@@ -223,7 +201,7 @@
                         </div>
                         <div class="nav-right pull-right clearfix">
                             <div class="support-box">
-                                <h5><i class="fas fa-headphones"></i>Off: <span>+254 709 750 074</span></h5>
+                                <h5><i class="fas fa-headphones"></i><span>+254 709 750 074</span></h5>
                                 <ul class="info-box">
                                     <li>
                                         <i class="far fa-map"></i>
@@ -258,9 +236,9 @@
             </div>
         </header>
         <!-- main-header end -->
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
+       
+         <!-- Mobile Menu  -->
+         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
             
@@ -285,4 +263,5 @@
                     </ul>
                 </div>
             </nav>
-        </div><!-- End Mobile Menu -->
+        </div>
+        <!-- End Mobile Menu -->

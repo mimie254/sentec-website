@@ -1,5 +1,5 @@
-<!-- main-footer -->
-<footer class="main-footer bg-color-2">
+ <!-- main-footer -->
+ <footer class="main-footer bg-color-2">
             <div class="footer-top">
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -23,11 +23,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="{{url('about/company')}}">About Us</a></li>
-                                        <li><a href="{{url('about/team')}}">Our Team</a></li>
-                                        <li><a href="{{url('services/heater')}}">Services</a></li>
+                                        <li><a href="{{url('/company')}}">About Us</a></li>
+                                        <li><a href="{{url('/team')}}">Our Team</a></li>
+                                        <li><a href="{{url('/heater')}}">Services</a></li>
                                         <li><a href="{{url('/project')}}">Projects Portfolio</a></li>
-                                        <li><a href="{{url('shop')}}">Shop</a></li>
                                         <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -44,7 +43,6 @@
                                         <li><a href="index.html">Privacy Policy</a></li>
                                         <li><a href="index.html">Sitemap</a></li>
                                         <li><a href="index.html">Updates</a></li>
-                                        <li><a href="index.html">Offers</a></li>
                                         <li><a href="index.html">Estimation</a></li>
                                     </ul>
                                 </div>
