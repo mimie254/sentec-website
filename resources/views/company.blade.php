@@ -117,7 +117,7 @@
                                             <h5>Vision Statement</h5>
                                             <br>
                                             <p>Reliable affordable energy for all.</p>
-                                        
+
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@
                                         <div class="content-box">
                                             <h5>Value Statement</h5>
                                             <p>Be the primary resource for providing clients with information in renewable energy, energy cost management and savings while backed by quality products and services towards reducing electricity cost by 50%.</p>
-                                           
+
                                             <ul class="clearfix">
                                                 <li>Quality products and services</li>
                                                 <li>Informative and educative approach</li>
@@ -213,10 +213,6 @@
         </section>
         <!-- working-style-three end -->
 
-
-        
-
-
         <!-- funfact-section -->
         <section class="funfact-section centred green-bg">
             <span class="big-text">Fun Numbers</span>
@@ -230,7 +226,7 @@
                         <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="2600">0</span>
+                                    <span class="count-text" data-speed="1500" data-stop="24">0</span>
                                 </div>
                                 <h5>Projects Completed</h5>
                                 <div class="icon-box"><i class="flaticon-mill"></i></div>
@@ -241,7 +237,7 @@
                         <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="137">0</span>
+                                    <span class="count-text" data-speed="1500" data-stop="15">0</span>
                                 </div>
                                 <h5>Professional Staff</h5>
                                 <div class="icon-box"><i class="flaticon-geology"></i></div>
@@ -252,7 +248,7 @@
                         <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
-                                    <span>0</span><span class="count-text" data-speed="1500" data-stop="9">0</span>
+                                    <span>0</span><span class="count-text" data-speed="1500" data-stop="3">0</span>
                                 </div>
                                 <h5>Countries Covered</h5>
                                 <div class="icon-box"><i class="flaticon-earth-globe"></i></div>
@@ -263,9 +259,9 @@
                         <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="845">0</span>
+                                    <span class="count-text" data-speed="1500" data-stop="23">0</span>
                                 </div>
-                                <h5>Satisfied People</h5>
+                                <h5>Satisfied Clients</h5>
                                 <div class="icon-box"><i class="flaticon-happiness"></i></div>
                             </div>
                         </div>

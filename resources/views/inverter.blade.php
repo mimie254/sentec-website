@@ -24,7 +24,7 @@
         <section class="service-details">
             <div class="auto-container">
                 <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 sidebar-side">
+                    <div class="col-md-4  col-sm-12 sidebar-side">
                         <div class="service-sidebar default-sidebar">
                             <div class="sidebar-widget category-widget">
                                 <div class="widget-title">
@@ -33,28 +33,19 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="category-list clearfix">
-                                        <li><a href="{{url('led')}}" class="current"><i class="fas fa-angle-right"></i><span>Led Lighting Solutions</span></a></li>
-                                        <li><a href="{{url('inverter')}}"><i class="fas fa-angle-right"></i><span>Inverter Power Backup Systems</span></a></li>
+                                        <li><a href="{{url('led')}}"><i class="fas fa-angle-right"></i><span>Led Lighting Solutions</span></a></li>
+                                        <li><a href="{{url('inverter')}}" class="current"><i class="fas fa-angle-right"></i><span>Inverter Power Backup Systems</span></a></li>
                                         <li><a href="{{url('heater')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
                                         <li><a href="{{url('solar')}}"><i class="fas fa-angle-right"></i><span>Solar Power Systems</span></a></li>
-                                      
+
                                     </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar-widget downloads-widget">
-                            <figure class="main-image"><img src="assets/images/inverter.png" alt=""></figure>
-                                
-                            </div>
-                            <div class="sidebar-content">
-                            <figure class="main-image"><img src="assets/images/backup-batteries.png" alt=""></figure>
-                            <div class="content-one">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-side">
+                    <div class="col-md-8 col-sm-12 content-side">
                         <div class="service-details-content">
-                            <figure class="main-image"><img src="assets/images/service/service-15.jpg" alt=""></figure>
+                            <figure class="main-image"><img src="{{asset('assets/images/inverter.png')}}" style="max-height: 450px" alt=""></figure>
                             <div class="content-one">
                                 <div class="text">
                                     <h2>Inverters & Charge Controllers</h2>
@@ -67,8 +58,9 @@
                                     <br>
                                     <br>
                                 </div>
-                            
+
                             </div>
+                            <figure class="main-image"><img src="{{asset('assets/images/backup-batteries.png')}}" style="max-height: 450px" alt=""></figure>
                             <div class="content-two">
                                 <div class="text">
                                     <h3>Solar & Backup Batteries</h3>
@@ -76,9 +68,9 @@
                                     <br>
                                     They are noiseless and gives out back up power automatically without the input of a technician once installed. They’re suitable for domestic and medium to high commercial applications.</p>
                                 </div>
-                                
+
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>

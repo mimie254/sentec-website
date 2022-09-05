@@ -62,7 +62,7 @@
                                 c
                             </span>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,33 +76,14 @@
                 <div class="auto-container">
                     <div class="top-inner clearfix">
                         <div class="text left-column pull-left">
-                            <h6><i class="comment-icon fas fa-comments"></i>Looking for Solar Consulting?&nbsp;&nbsp;<a href="index.html"><i class="link-icon flaticon-right-arrow"></i>&nbsp;&nbsp;Book Now</a></h6>
+                            <h6><i class="comment-icon fas fa-comments"></i>Looking for Solar Consulting?&nbsp;&nbsp;<a href="{{url('contact')}}">&nbsp;&nbsp;Contact us Today</a></h6>
                         </div>
                         <div class="right-column pull-right clearfix">
-                            <ul class="info clearfix">
-                                <li><i class="fas fa-star"></i><a href="index.html">Updates</a></li>
-                                <li><i class="fas fa-dollar-sign"></i><a href="index.html">Estimate</a></li>
-                                <li class="search-box-outer">
-                                    <div class="dropdown">
-                                        <button class="search-box-btn" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-search"></i>Search</button>
-                                        <div class="dropdown-menu search-panel" aria-labelledby="dropdownMenu3">
-                                            <div class="form-container">
-                                                <form method="post" action="blog.html">
-                                                    <div class="form-group">
-                                                        <input type="search" name="search-field" value="" placeholder="Search...." required="">
-                                                        <button type="submit" class="search-btn"><span class="fas fa-search"></span></button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.facebook.com/sentimentalenergy/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://twitter.com/SentecLtd"><i class="fab fa-twitch"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -114,7 +95,7 @@
                     <div class="outer-box clearfix">
                         <div class="menu-area pull-left clearfix">
                             <div class="logo-box pull-left">
-                                <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                                <figure class="logo"><a href="{{url('/')}}"><img src="assets/images/logo.png" alt=""></a></figure>
                             </div>
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -126,27 +107,27 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li ><a href="{{('/')}}">Home</a>
-                                            
+
                                         </li>
                                         <li class="dropdown"><a href="{{url('/')}}">About</a>
                                             <ul>
                                                 <li><a href="{{url('/company')}}">Company</a></li>
                                                 <li ><a href="{{url('/team')}}">Team</a></li>
                                             </ul>
-                                        </li> 
+                                        </li>
                                         <li class="dropdown"><a href="{{url('/')}}">Services</a>
                                             <ul>
                                                 <li><a href="{{url('/led')}}">Led Lighting Solutions</a></li>
                                                 <li><a href="{{url('/inverter')}}">Inverter Power Backup Systems</a></li>
                                                 <li><a href="{{url('/heater')}}">Water Heating Systems</a></li>
                                                 <li><a href="{{url('/solar')}}">Solar Power Systems</a></li>
-                            
+
                                             </ul>
-                                        </li> 
+                                        </li>
                                         <li ><a href="{{url('/project')}}">Projects</a>
                                         </li>
-                                          
-                                        <li><a href="{{url('/contact')}}">Contact</a></li>   
+
+                                        <li><a href="{{url('/contact')}}">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -176,10 +157,7 @@
                                 <img src="assets/images/icons/flag-1.png" alt="">
                                 <span>En</span>
                                 <ul class="language-dropdown clearfix">
-                                    <li><a href="index.html">English (US)</a></li>
-                                    <li><a href="index.html">English (UK)</a></li>
-                                    <li><a href="index.html">Chines</a></li>
-                                    <li><a href="index.html">Spanish</a></li>
+                                    <li><a href="#">English (US)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -224,10 +202,7 @@
                                 <img src="assets/images/icons/flag-1.png" alt="">
                                 <span>En</span>
                                 <ul class="language-dropdown clearfix">
-                                    <li><a href="index.html">English (US)</a></li>
-                                    <li><a href="index.html">English (UK)</a></li>
-                                    <li><a href="index.html">Chines</a></li>
-                                    <li><a href="index.html">Spanish</a></li>
+                                    <li><a href="#">English (US)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -236,12 +211,12 @@
             </div>
         </header>
         <!-- main-header end -->
-       
+
          <!-- Mobile Menu  -->
          <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="{{url('/')}}"><img src="{{asset('assets/images/logo-2.png')}}" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
@@ -255,11 +230,10 @@
                 </div>
                 <div class="social-links">
                     <ul class="clearfix">
-                    <li><a href="{{url('twitter link')}}"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="{{url('fb link')}}><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="{{url('pinterest link')}}"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="{{url('instagram link')}}"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="{{url('youtube link')}}"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="https://www.facebook.com/sentimentalenergy/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://twitter.com/SentecLtd"><i class="fab fa-twitch"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -318,7 +292,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -327,7 +301,7 @@
                     <div class="inner-box clearfix">
                         <div class="copyright text-center">
                             <p>Copyright &copy; 2022 <a href="index.html">Sentec</a>. All Rights Reserved.</p>
-                        
+
                 </div>
             </div>
         </footer>

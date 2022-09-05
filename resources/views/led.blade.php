@@ -36,26 +36,15 @@
                                         <li><a href="{{url('inverter')}}"><i class="fas fa-angle-right"></i><span>Inverter Power Backup Systems</span></a></li>
                                         <li><a href="{{url('heater')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
                                         <li><a href="{{url('solar')}}"><i class="fas fa-angle-right"></i><span>Solar Power Systems</span></a></li>
-                                      
+
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="sidebar-widget downloads-widget">
-                            <figure class="main-image"><img src="assets/images/1.5W-Garden-Light.png" alt=""></figure>
-                            </div>
-                            <div class="sidebar-content">
-                            <figure class="main-image"><img src="assets/images/5W-Wall-Light.png" alt=""></figure>
-                            </div>
-                            <br>
-                            <br>
-                            <div class="sidebar-content">
-                            <figure class="main-image"><img src="assets/images/24W-Solar-Security.png" alt=""></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div class="service-details-content">
-                            <figure class="main-image"><img src="assets/images/service/service-15.jpg" alt=""></figure>
+                            <figure class="main-image"><img src="{{asset('assets/images/led.png')}}" style="height: 450px" alt=""></figure>
                             <div class="content-one">
                                 <div class="text">
                                     <h2>LED LIGHTING SOLUTIONS</h2>
@@ -66,13 +55,139 @@
                                     <br>
                                     <br>
                                 </div>
-                                
                             </div>
-                            <div class="  downloads-widget">
-                            <figure class="main-image"><img src="assets/images/100W-Solar-Floodlight.png" alt=""></figure>
-                                
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                                    <div class="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><img src="{{asset('assets/images/2W-Garden-Light.png')}}" alt=""></figure>
+                                            <div class="content-box">
+                                                <div class="inner">
+                                                    <div class="text">
+                                                        <span class="category">2W</span>
+                                                        <h3><a href="#">Garden Light</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <div class="text">
+                                                    <span class="category">2W</span>
+                                                    <h3><a href="#">Garden Light</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                                    <div class="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><img src="{{asset('assets/images/1.5W-Garden-Light.png')}}" alt=""></figure>
+                                            <div class="content-box">
+                                                <div class="inner">
+                                                    <div class="text">
+                                                        <span class="category">1.5W</span>
+                                                        <h3><a href="#">Garden Light</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <div class="text">
+                                                    <span class="category">1.5W</span>
+                                                    <h3><a href="#">Garden Light</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                           
+                            <div class="row clearfix mt-5">
+                                <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                                    <div class="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><img src="{{asset('assets/images/5W-Wall-Light.png')}}" alt=""></figure>
+                                            <div class="content-box">
+                                                <div class="inner">
+                                                    <div class="text">
+                                                        <span class="category">5W</span>
+                                                        <h3><a href="#">Garden Light</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <div class="text">
+                                                    <span class="category">5W</span>
+                                                    <h3><a href="#">Garden Light</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                                    <div class="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><img src="{{asset('assets/images/6W-Security-Light.png')}}" alt=""></figure>
+                                            <div class="content-box">
+                                                <div class="inner">
+                                                    <div class="text">
+                                                        <span class="category">6W</span>
+                                                        <h3><a href="#">Security Light</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <div class="text">
+                                                    <span class="category">6W</span>
+                                                    <h3><a href="#">Security Light</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix mt-5">
+                                <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                                    <div class="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><img src="{{asset('assets/images/24W-Solar-Security.png')}}" alt=""></figure>
+                                            <div class="content-box">
+                                                <div class="inner">
+                                                    <div class="text">
+                                                        <span class="category">24W</span>
+                                                        <h3><a href="#">Solar Security</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <div class="text">
+                                                    <span class="category">24W</span>
+                                                    <h3><a href="#">Solar Security</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                                    <div class="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><img src="{{asset('assets/images/100W-Solar-Floodlight.png')}}" alt=""></figure>
+                                            <div class="content-box">
+                                                <div class="inner">
+                                                    <div class="text">
+                                                        <span class="category">100W</span>
+                                                        <h3><a href="#">Solar Floodlight</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <div class="text">
+                                                    <span class="category">100W</span>
+                                                    <h3><a href="#">Solar Floodlight</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

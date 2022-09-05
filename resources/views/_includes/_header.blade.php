@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Sentec Ltd</title>
+<title>Sentec Ltdddd</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -62,7 +62,7 @@
                                 c
                             </span>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                 <div class="auto-container">
                     <div class="top-inner clearfix">
                         <div class="text left-column pull-left">
-                            <h6><i class="comment-icon fas fa-comments"></i>Looking for Solar Consulting?&nbsp;&nbsp;<a href="index.html"><i class="link-icon flaticon-right-arrow"></i>&nbsp;&nbsp;Book Now</a></h6>
+                            <h6><i class="comment-icon fas fa-comments"></i>Looking for Solar Consulting?&nbsp;&nbsp;<a href="{{url('contact')}}"><i class="link-icon flaticon-right-arrow"></i>&nbsp;&nbsp;Contact Us Today</a></h6>
                         </div>
                         <div class="right-column pull-right clearfix">
                             <ul class="info clearfix">
@@ -126,27 +126,27 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li ><a href="{{('/')}}">Home</a>
-                                            
+
                                         </li>
                                         <li class="dropdown"><a href="{{url('/')}}">About</a>
                                             <ul>
                                                 <li><a href="{{url('/company')}}">Company</a></li>
                                                 <li ><a href="{{url('/team')}}">Team</a></li>
                                             </ul>
-                                        </li> 
+                                        </li>
                                         <li class="dropdown"><a href="{{url('/')}}">Services</a>
                                             <ul>
                                                 <li><a href="{{url('/led')}}">Led Lighting Solutions</a></li>
                                                 <li><a href="{{url('/inverter')}}">Inverter Power Backup Systems</a></li>
                                                 <li><a href="{{url('/heater')}}">Water Heating Systems</a></li>
                                                 <li><a href="{{url('/solar')}}">Solar Power Systems</a></li>
-                            
+
                                             </ul>
-                                        </li> 
+                                        </li>
                                         <li ><a href="{{url('/project')}}">Projects</a>
                                         </li>
-                                          
-                                        <li><a href="{{url('/contact')}}">Contact</a></li>   
+
+                                        <li><a href="{{url('/contact')}}">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -236,12 +236,12 @@
             </div>
         </header>
         <!-- main-header end -->
-       
+
          <!-- Mobile Menu  -->
          <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="{{url('/')}}"><img src="{{asset('assets/images/logo-2.png')}}" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
