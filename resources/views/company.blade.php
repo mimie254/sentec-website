@@ -36,7 +36,7 @@
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image-box">
-                            <figure class="image"><img src="assets/images/resource/about-4.jpg" alt=""></figure>
+                            <figure class="image"><img src="{{asset('assets/images/shaurii.png')}}" alt=""></figure>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -70,7 +70,7 @@
 
 
         <!-- statements-section -->
-        <section class="statements-section" style="background-image: url(assets/images/background/statements-bg.jpg);">
+        <section class="statements-section" style="background-image: url(assets/images/sentecAll.png);">
             <div class="auto-container">
                 <div class="tabs-box">
                     <div class="tab-btn-box">
@@ -149,70 +149,6 @@
         </section>
         <!-- statements-section end -->
 
-        <!-- working-style-three -->
-        <section class="working-style-three bg-color-2">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-12 col-sm-12 content-column">
-                        <div class="content-box">
-                            <figure class="image-box"><img src="assets/images/resource/chooseus-1.jpg" alt=""></figure>
-                            <div class="text">
-                                <h6>Why Choose Us</h6>
-                                <h3>A few reasons to Choose</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-12 col-sm-12 inner-column">
-                        <div class="inner-content">
-                            <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6 col-sm-12 working-block">
-                                    <div class="working-block-three">
-                                        <div class="inner-box">
-                                            <span class="big-text">01</span>
-                                            <div class="icon-box"><img src="assets/images/icons/icon-46.png" alt=""></div>
-                                            <h5>Non-Polluting</h5>
-                                            <p>Indignation dislike men who beguiled all demoralized by charms.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 working-block">
-                                    <div class="working-block-three">
-                                        <div class="inner-box">
-                                            <span class="big-text">02</span>
-                                            <div class="icon-box"><img src="assets/images/icons/icon-47.png" alt=""></div>
-                                            <h5>Easy Installation</h5>
-                                            <p>Foresee the pains & trouble that bound equally belongs to fail duty.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 working-block">
-                                    <div class="working-block-three">
-                                        <div class="inner-box">
-                                            <span class="big-text">03</span>
-                                            <div class="icon-box"><img src="assets/images/icons/icon-48.png" alt=""></div>
-                                            <h5>Low Maintenance</h5>
-                                            <p>Foresee the pains & trouble that bound equally belongs to fail duty.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 working-block">
-                                    <div class="working-block-three">
-                                        <div class="inner-box">
-                                            <span class="big-text">04</span>
-                                            <div class="icon-box"><img src="assets/images/icons/icon-49.png" alt=""></div>
-                                            <h5>Easy Renewable</h5>
-                                            <p>Indignation dislike men who beguiled all demoralized by charms.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- working-style-three end -->
-
         <!-- funfact-section -->
         <section class="funfact-section centred green-bg">
             <span class="big-text">Fun Numbers</span>
@@ -223,7 +159,8 @@
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms"
+                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
                                     <span class="count-text" data-speed="1500" data-stop="24">0</span>
@@ -234,7 +171,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms"
+                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
                                     <span class="count-text" data-speed="1500" data-stop="15">0</span>
@@ -245,7 +183,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms"
+                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
                                     <span>0</span><span class="count-text" data-speed="1500" data-stop="3">0</span>
@@ -256,7 +195,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms"
+                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="count-outer count-box">
                                     <span class="count-text" data-speed="1500" data-stop="23">0</span>

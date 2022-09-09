@@ -95,7 +95,7 @@
                     <div class="outer-box clearfix">
                         <div class="menu-area pull-left clearfix">
                             <div class="logo-box pull-left">
-                                <figure class="logo"><a href="{{url('/')}}"><img src="assets/images/logo.png" alt=""></a></figure>
+                                <figure class="logo"><a href="{{url('/')}}"><img src="{{asset('assets/images/sentecLogo.jpeg')}}" style="max-height: 60px" alt=""></a></figure>
                             </div>
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -117,10 +117,10 @@
                                         </li>
                                         <li class="dropdown"><a href="{{url('/')}}">Services</a>
                                             <ul>
-                                                <li><a href="{{url('/led')}}">Led Lighting Solutions</a></li>
-                                                <li><a href="{{url('/inverter')}}">Inverter Power Backup Systems</a></li>
-                                                <li><a href="{{url('/heater')}}">Water Heating Systems</a></li>
-                                                <li><a href="{{url('/solar')}}">Solar Power Systems</a></li>
+                                                <li><a href="{{url('/led')}}">Led Lighting</a></li>
+                                                <li><a href="{{url('/inverter')}}">Inverter Power Backup</a></li>
+                                                <li><a href="{{url('/heater')}}">Water Heating</a></li>
+                                                <li><a href="{{url('/solar')}}">Solar Power</a></li>
 
                                             </ul>
                                         </li>
@@ -171,7 +171,7 @@
                     <div class="outer-box">
                         <div class="menu-area pull-left clearfix">
                             <div class="logo-box pull-left">
-                                <figure class="logo"><a href="{{url('/')}}"><img src="assets/images/logo.png" alt=""></a></figure>
+                                <figure class="logo"><a href="{{url('/')}}"><img src="{{asset('assets/images/sentecLogo.jpeg')}}" style="max-height: 60px" alt=""></a></figure>
                             </div>
                             <nav class="main-menu clearfix">
                                 <!--Keep This Empty / Menu will come through Javascript-->
@@ -249,7 +249,7 @@
                     <div class="row clearfix">
                         <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png" alt=""></a></figure>
+                                <figure class="footer-logo"><a href="index.html"><img src="{{asset('assets/images/sentecLogo.jpeg')}}" style="max-height: 100px" alt=""></a></figure>
                                 <div class="support-box">
                                     <i class="far fa-envelope-open"></i>
                                     <h6>Free Consult</h6>
@@ -283,11 +283,8 @@
                                 </div>
                                 <div class="widget-content">
                                         <ul class="links-list clearfix">
-                                        <li><a href="index.html">Terms & Conditions</a></li>
-                                        <li><a href="index.html">Privacy Policy</a></li>
-                                        <li><a href="index.html">Sitemap</a></li>
-                                        <li><a href="index.html">Updates</a></li>
-                                        <li><a href="index.html">Estimation</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
                                     </ul>
                                 </div>
                             </div>

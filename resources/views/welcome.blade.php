@@ -34,7 +34,7 @@
         <section class="about-section">
             <div class="auto-container">
                 <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column d-none d-md-block">
                         <div class="image_block_1">
                             <div class="image-box">
                                 <figure class="image image-1"><img src="assets/images/resource/about-1.jpg" alt=""></figure>
@@ -57,7 +57,7 @@
                                         </div>
                                         <h6>Who we are</h6>
                                     </div>
-                                    <h2>smartest way to Generate electricity</h2>
+                                    <h2>Sentec Solar LTD</h2>
                                 </div>
                                 <div class="text">
                                     <p>
@@ -74,7 +74,7 @@
         <!-- about-section end -->
 
 
-        <!-- service-section -->
+        <{{--!-- service-section -->
         <section class="service-section sec-pad bg-color-1">
             <div class="auto-container">
                 <div class="sec-title centred">
@@ -142,11 +142,11 @@
                 </div>
             </div>
         </section>
-        <!-- service-section end -->
+        <!-- service-section end -->--}}
 
 
         <!-- service-style-two -->
-        <section class="service-style-two sec-pad">
+        <section class="service-style-two sec-pad bg-color-1">
             <div class="auto-container">
                 <div class="upper-box">
                     <div class="row clearfix">
