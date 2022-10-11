@@ -3,7 +3,7 @@
 
 
         <!-- Page Title -->
-        <section class="page-title" style="background-image: url(assets/images/background/page-title.jpg);">
+        <section class="page-title" style="background-image: url(/assets/images/background/page-title.jpg);">
             <div class="auto-container">
                 <div class="content-box clearfix">
                     <div class="title">
@@ -32,11 +32,14 @@
                                     <div class="icon-box"><img src="assets/images/icons/icon-54.png" alt=""></div>
                                 </div>
                                 <div class="widget-content">
-                                <li><a href="{{url('led')}}" class="current"><i class="fas fa-angle-right"></i><span>Led Lighting Solutions</span></a></li>
-                                        <li><a href="{{url('inverter')}}"><i class="fas fa-angle-right"></i><span>Inverter Power Backup Systems</span></a></li>
-                                        <li><a href="{{url('heater')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
-                                        <li><a href="{{url('solar')}}"><i class="fas fa-angle-right"></i><span>Solar Power Systems</span></a></li>
-
+                                    <ul class="category-list clearfix">
+                                        <li><a href="{{url('/services/solar-photovoltaic-systems')}}"><i
+                                                    class="fas fa-angle-right"></i><span>Solar Photovoltaic Systems</span></a></li>
+                                        <li><a href="{{url('/services/water-heating-systems')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i><span>Water Pumping Systems</span></a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i><span>Street Lighting Solutions</span></a></li>
+                                        <li><a  class="current" href="{{url('services/LED-lighting-solutions')}}"><i class="fas fa-angle-right"></i><span>LED Lighting Solutions</span></a></li>
+                                        <li><a href="{{url('services/power-backup-systems')}}"><i class="fas fa-angle-right"></i><span>Power Backup Systems</span></a></li>
                                     </ul>
                                 </div>
                             </div>

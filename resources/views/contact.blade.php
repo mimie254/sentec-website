@@ -42,24 +42,25 @@
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="far fa-map"></i></div>
                                 <h6>Address</h6>
-                                <span>P.O. BOX 103690 – 00101,NAIROBI, KENYA.</span>
+                                <span>Diani close, off Oledume Rd, Gate 7, Office block 2</span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-headphones"></i></div>
                                 <h6>Sales Team</h6>
-                                <span><a href="tel:+254 725 445 459">+254 725 445 459</a></span>
+                                <span><a href="tel:+254 725 445 459">+254 700 042150</a></span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="far fa-clock"></i></div>
                                 <h6>Off. Hrs</h6>
-                                <span>Mon - Sat: 09.00 to 06.30</span>
+                                <span>Mon - Fri: 08.00 to 05.00</span>
+                                <span>Sat: 08.30 to 12.00</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 image-column">
-                        <div class="image-box">
-                            <figure class="image clearfix"><img src="assets/images/resource/contact-1.png" alt=""></figure>
-                        </div>
+                        {{--<div class="image-box">
+                            <figure class="image clearfix"><img src="{{asset('assets/images/resource/contact-1.png')}}" alt=""></figure>
+                        </div>--}}
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 info-column">
                         <div class="inner-box text-right right-column">
@@ -72,7 +73,7 @@
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-headphones"></i></div>
                                 <h6>Marketing</h6>
-                                <span><a href="tel: +254 709 750 074"> +254 709 750 074</a></span>
+                                <span><a href="tel: +254 709 750 074"> +254 757 674466</a></span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-question"></i></div>
@@ -89,7 +90,7 @@
 
         <!-- contact-form-section -->
         <section class="contact-form-section ">
-       
+
             <div class="row clearfix">
             <div class="col-lg-6 col-md-6 col-sm-12 column">
                 <div class="footer-widget logo-widget">
@@ -98,7 +99,7 @@
                         <h3>Send Your Message</h3>
                         <p>Please feel free to get in touch using the form below. We'd love to hear for you.</p>
                     </div>
-                    <form method="post" action="https://st.ourhtmldemo.com/new/Energo/sendemail.php" id="contact-form" class="default-form"> 
+                    <form method="post" action="https://st.ourhtmldemo.com/new/Energo/sendemail.php" id="contact-form" class="default-form">
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 column">
                                 <div class="form-group">
@@ -140,36 +141,35 @@
                 </div>
                 </div>
             </div>
-            <div class="row clearfix"> 
+            <div class="row clearfix">
                 <div class="col-lg-6 col-md-6 col-sm-12 column">
-            
+
                      <div class="footer-widget logo-widget">
                         <div class="map-inner ">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.753488872804!2d36.841846714274794!3d-1.3237658360403999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11be560b5283%3A0x9dacf93424a76a51!2sThe%20Nextgen%20Mall!5e0!3m2!1sen!2ske!4v1661844736511!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1994.398516276433!2d36.77149101788941!3d-1.2964160661790831!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11b004e084b5%3A0xfbb139f52eba27da!2sOFGEN!5e0!3m2!1sen!2ske!4v1665513288422!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <script src="assets/js/map-helper.js"></script>
                         </div>
                     </div>
                 </div>
             </div>
          </div>
-     
+
         </section>
-        
+
         <!-- contact-form-section end -->
 
 
         <!-- google-map-section -->
         <!--section class="google-map-section">
             <div class="map-inner">
-                <div 
-                    class="google-map" 
-                    id="contact-google-map" 
-                    data-map-lat="40.712776" 
-                    data-map-lng="-74.005974" 
-                    data-icon-path="assets/images/icons/map-marker.png"  
-                    data-map-title="Brooklyn, New York, United Kingdom" 
-                    data-map-zoom="12" 
+                <div
+                    class="google-map"
+                    id="contact-google-map"
+                    data-map-lat="40.712776"
+                    data-map-lng="-74.005974"
+                    data-icon-path="assets/images/icons/map-marker.png"
+                    data-map-title="Brooklyn, New York, United Kingdom"
+                    data-map-zoom="12"
                     data-markers='{
                         "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","assets/images/icons/map-marker.png"]
                     }'>
@@ -180,6 +180,6 @@
         <!-- google-map-section end -->
         <!-- map script -->
         <!-- google-map-section -->
-        
+
 
          @endsection

@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("../fonts/flaticon.ttf%3F1df927c4626e072d7cc017c3d3023445") format("truetype"),
-url("../fonts/flaticon.woff%3F1df927c4626e072d7cc017c3d3023445") format("woff"),
-url("../fonts/flaticon.woff2%3F1df927c4626e072d7cc017c3d3023445") format("woff2"),
-url("../fonts/flaticon.eot%3F1df927c4626e072d7cc017c3d3023445") format("embedded-opentype"),
-url("../fonts/flaticon.svg%3F1df927c4626e072d7cc017c3d3023445") format("svg");
+    src: url("../fonts/flaticon.ttf1df927c4626e072d7cc017c3d3023445") format("truetype"),
+url("../fonts/flaticon.woff1df927c4626e072d7cc017c3d3023445") format("woff"),
+url("../fonts/flaticon.woff21df927c4626e072d7cc017c3d3023445") format("woff2"),
+url("../fonts/flaticon.eot1df927c4626e072d7cc017c3d3023445") format("embedded-opentype"),
+url("../fonts/flaticon.svg1df927c4626e072d7cc017c3d3023445") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {

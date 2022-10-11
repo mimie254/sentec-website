@@ -7,7 +7,7 @@
         <div class="auto-container">
             <div class="content-box clearfix">
                 <div class="title">
-                    <h1>About Team</h1>
+                    <h1>SENTEC Team</h1>
                 </div>
                 <ul class="bread-crumb clearfix pull-right">
                     <li><a href="index.html">Home</a></li>
@@ -68,15 +68,21 @@
                         <div class="content-box">
                             <div class="text">
                                 <h5>Chesire Kipkemboi Edwin - Director Finance and Strategy</h5>
-                                <p>Chesire Kipkemboi Edwin is a holder of B. Tech. in Mechanical and Production Engineering
-                                    form Moi University and masters in Energy Technology from Jomo Kenyatta University of
+                                <p>Chesire Kipkemboi Edwin is a holder of B. Tech. in Mechanical and Production
+                                    Engineering
+                                    form Moi University and masters in Energy Technology from Jomo Kenyatta University
+                                    of
                                     Agriculture and Technology. He is a registered graduate engineer with the Engineers
                                     Registration Board of Kenya.<br>
 
-                                    He has expansive knowledge of the Kenya’s energy sector having worked with the Ministry
-                                    of Energy and Petroleum for the past 6 years. He is has undertaken key tasks including
-                                    the performing prefeasibility study for Kenya’s Nuclear Power Programme, Development of
-                                    Energy Bill 2015 and Development of the long-term energy plan for the country: The Least
+                                    He has expansive knowledge of the Kenya’s energy sector having worked with the
+                                    Ministry
+                                    of Energy and Petroleum for the past 6 years. He is has undertaken key tasks
+                                    including
+                                    the performing prefeasibility study for Kenya’s Nuclear Power Programme, Development
+                                    of
+                                    Energy Bill 2015 and Development of the long-term energy plan for the country: The
+                                    Least
                                     Cost Power Development Plan.</p>
                             </div>
                         </div>
@@ -90,62 +96,4 @@
             </div>
         </div>
     </section>
-    <!-- about-style-three end -->
-    <!-- funfact-section -->
-    <section class="funfact-section centred green-bg">
-        <span class="big-text">Fun Numbers</span>
-        <div class="bg-layer">
-            <div class="bg-1" style="background-image: url(assets/images/icons/vector-1.png);"></div>
-            <div class="bg-2" style="background-image: url(assets/images/icons/vector-2.png);"></div>
-        </div>
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <div class="count-outer count-box">
-                                <span class="count-text" data-speed="1500" data-stop="24">0</span>
-                            </div>
-                            <h5>Projects Completed</h5>
-                            <div class="icon-box"><i class="flaticon-mill"></i></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <div class="count-outer count-box">
-                                <span class="count-text" data-speed="1500" data-stop="15">0</span>
-                            </div>
-                            <h5>Professional Staff</h5>
-                            <div class="icon-box"><i class="flaticon-geology"></i></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <div class="count-outer count-box">
-                                <span>0</span><span class="count-text" data-speed="1500" data-stop="3">0</span>
-                            </div>
-                            <h5>Countries Covered</h5>
-                            <div class="icon-box"><i class="flaticon-earth-globe"></i></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <div class="count-outer count-box">
-                                <span class="count-text" data-speed="1500" data-stop="23">0</span>
-                            </div>
-                            <h5>Satisfied Clients</h5>
-                            <div class="icon-box"><i class="flaticon-happiness"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- funfact-section end -->
 @endsection

@@ -41,7 +41,7 @@
                                 <figure class="image image-2"><img style="width: 50%" src="{{asset('assets/images/solarPower.png')}}" alt=""></figure>
                                 <figure class="image image-3"><img src="assets/images/icons/bulb-1.png" alt=""></figure>
                                 <div class="text">
-                                    <h2>07<span>+</span></h2>
+                                    <h2>06<span>+</span></h2>
                                     <h6>Years Experienced</h6>
                                 </div>
                             </div>
@@ -57,12 +57,13 @@
                                         </div>
                                         <h6>Who we are</h6>
                                     </div>
-                                    <h2>Sentec Solar LTD</h2>
+                                    <h2>Sentimental Energy Company LTD(SENTEC LTD)</h2>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        SENTEC Solar Ltd is a renewable energy company operating in the solar energy space for the past 6 years. The inception of our company was out of the desire to provide low-cost energy solutions cutting across all sectors (domestic, commercial, industrialization sectors). Our main focus is offering an end-to- end experience to our clients through our solar solutions; solutions offered include but not limited to lighting & heating.
-                                        The SENTEC team consists of highly motivated professionals who are passionate about impacting lives/ businesses through the uptake of solar solutions. Our team is guided by the below company mission and visions.
+                                        Sentimental Energy Company Limited is a duly registered company in Kenya since 2012 and was incorporated in the year 2016. It was formed out of a desire to provide low cost energy solutions to the region’s domestic, commercial and industrialization sector with emphasis on solar energy and low load consuming Lighting solutions. We design, develop, install and maintain solar power, solar water heating and power backup systems and LED lighting solutions.<br>
+                                        We are also involved massively in sales and distribution of solar panels, charge controllers, inverters, batteries and LED lights. The company has over 6 years of experience in the renewable energy industry centered on actual hands-on experiences in design, sizing, installation and commissioning, energy audit and management.<br>
+                                        SENTEC is owned by a team of professionals with competent skills and experience in their respective fields of, energy systems design, installation and management, financial project management and sales. Our mission is to become the leader in the alternative energy movement that takes place in the region with emphasis on the affordable sustainable and reliable solar power, water heating and LED lighting solutions.
                                     </p>
                                 </div>
                             </div>
@@ -276,7 +277,7 @@
         <!-- service-style-two end -->
 
 
-        <!-- funfact-section -->
+        {{--<!-- funfact-section -->
         <section class="funfact-section centred green-bg">
             <span class="big-text">Fun Numbers</span>
             <div class="bg-layer">
@@ -332,7 +333,7 @@
                 </div>
             </div>
         </section>
-        <!-- funfact-section end -->
+        <!-- funfact-section end -->--}}
 
 
         <!-- working-section -->
@@ -349,7 +350,7 @@
                                     </div>
                                     <h6>Working Process</h6>
                                 </div>
-                                <h2>4 ways to Achive results</h2>
+                                <h2>SENTEC LTD Process</h2>
                             </div>
                         </div>
                     </div>
@@ -409,20 +410,39 @@
             <div class="auto-container">
                 <div class="clients-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
                     <div class="clients-logo-box">
-                        <a href="index.html"><img src="assets/images/clients/clients-logo-1.png" alt=""></a>
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.15.56.png')}}" style="max-height: 100px"  alt=""></a>
                     </div>
                     <div class="clients-logo-box">
-                        <a href="index.html"><img src="assets/images/clients/clients-logo-2.png" alt=""></a>
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.07.15.png')}}" style="max-height: 100px"  alt=""></a>
                     </div>
                     <div class="clients-logo-box">
-                        <a href="index.html"><img src="assets/images/clients/clients-logo-3.png" alt=""></a>
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.07.26.png')}}" style="max-height: 100px"  alt=""></a>
                     </div>
                     <div class="clients-logo-box">
-                        <a href="index.html"><img src="assets/images/clients/clients-logo-4.png" alt=""></a>
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.07.38.png')}}" style="max-height: 100px"  alt=""></a>
                     </div>
                     <div class="clients-logo-box">
-                        <a href="index.html"><img src="assets/images/clients/clients-logo-5.png" alt=""></a>
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.07.50.png')}}" style="max-height: 100px"  alt=""></a>
                     </div>
+                    <div class="clients-logo-box">
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.08.01.png')}}" style="max-height: 100px"  alt=""></a>
+                    </div>
+                    <div class="clients-logo-box">
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.08.09.png')}}" style="max-height: 100px"  alt=""></a>
+                    </div>
+                    <div class="clients-logo-box">
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.08.22.png')}}" style="max-height: 100px"  alt=""></a>
+                    </div>
+                    <div class="clients-logo-box">
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.08.33.png')}}" style="max-height: 100px" alt=""></a>
+                    </div>
+                    <div class="clients-logo-box">
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.08.44.png')}}" style="max-height: 100px"  alt=""></a>
+                    </div>
+                    <div class="clients-logo-box">
+                        <a href="javascript:;"><img src="{{asset('assets/images/partners/Screenshot 2022-10-11 at 20.08.51.png')}}" style="max-height: 100px"  alt=""></a>
+                    </div>
+
                 </div>
             </div>
         </section>

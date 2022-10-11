@@ -3,11 +3,11 @@
 
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/page-title.jpg);">
+    <section class="page-title" style="background-image: url(/assets/images/background/page-title.jpg);">
         <div class="auto-container">
             <div class="content-box clearfix">
                 <div class="title">
-                    <h1>SOLAR POWER SYSTEMS</h1>
+                    <h1>SOLAR Photovoltaic SYSTEMS</h1>
                 </div>
                 <ul class="bread-crumb clearfix pull-right">
                     <li><a href="{{url('/')}}">Home</a></li>
@@ -29,19 +29,17 @@
                         <div class="sidebar-widget category-widget">
                             <div class="widget-title">
                                 <h5>Main Services</h5>
-                                <div class="icon-box"><img src="assets/images/icons/icon-54.png" alt=""></div>
+                                <div class="icon-box"><img src="{{asset('assets/images/icons/icon-54.png')}}" alt=""></div>
                             </div>
                             <div class="widget-content">
                                 <ul class="category-list clearfix">
-                                    <li><a href="{{url('led')}}"><i class="fas fa-angle-right"></i><span>Led Lighting Solutions</span></a>
-                                    </li>
-                                    <li><a href="{{url('inverter')}}"><i class="fas fa-angle-right"></i><span>Inverter Power Backup Systems</span></a>
-                                    </li>
-                                    <li><a href="{{url('heater')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a>
-                                    </li>
-                                    <li><a href="{{url('solar')}}" class="current"><i
-                                                class="fas fa-angle-right"></i><span>Solar Power Systems</span></a></li>
-
+                                    <li><a href="{{url('/services/solar-photovoltaic-systems')}}" class="current"><i
+                                                class="fas fa-angle-right"></i><span>Solar Photovoltaic Systems</span></a></li>
+                                    <li><a href="{{url('/services/water-heating-systems')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
+                                    <li><a href="#"><i class="fas fa-angle-right"></i><span>Water Pumping Systems</span></a></li>
+                                    <li><a href="#"><i class="fas fa-angle-right"></i><span>Street Lighting Solutions</span></a></li>
+                                    <li><a href="{{url('services/LED-lighting-solutions')}}"><i class="fas fa-angle-right"></i><span>LED Lighting Solutions</span></a></li>
+                                    <li><a href="{{url('services/power-backup-systems')}}"><i class="fas fa-angle-right"></i><span>Power Backup Systems</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,12 +53,7 @@
                             <div class="text">
                                 <h3>Rooftop Solar System</h3>
                                 <p>
-                                    We use nature’s free light energy from the sun to provide electricity to all forms
-                                    of requirements. Our solar power systems are sourced from highly accredited European
-                                    supply markets of Germany and Denmark.<br>
-                                    <br>
-                                    The solar power systems are provided on warranty terms carried by the manufacturer
-                                    and adequately enforced by the SENTEC able technical team.
+                                    We use nature’s free light energy from the sun to provide electricity to all forms of requirements. <br>Our solar power systems are sourced form highly accredited European supply markets of Germany and Denmark. <br>The solar power systems are provided on warranty terms carried by the manufacturer and adequately enforced by the SENTEC able technical department. <br>Systems and products in this category include off grid power solutions, grid tie solar power solutions and backup power solutions on turnkey arrangements. <br>Other products provided on individuality include high quality solar panels, reliable batteries, charge controllers and inverters
                                 </p>
                             </div>
 

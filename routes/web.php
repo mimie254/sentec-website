@@ -19,10 +19,16 @@ use App\Http\Controllers\SentecController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/led',[SentecController::class, 'show']);
-Route::get('/heater',[SentecController::class,'display']);
-Route::get('/inverter',[SentecController::class,'create']);
-Route::get('/solar',[SentecController::class,'make']);
+
+Route::prefix("services")->group(function (){
+    Route::get('water-heating-systems',[SentecController::class,'display']);
+    Route::get('solar-photovoltaic-systems',[SentecController::class,'make']);
+    Route::get('/LED-lighting-solutions',[SentecController::class, 'show']);
+    Route::get('/power-backup-systems',[SentecController::class,'create']);
+});
+
+
+
 Route::get('/project',[SentecController::class,'pick']);
 Route::get('/contact',[SentecController::class,'take']);
 Route::get('/company',[SentecController::class,'give']);
