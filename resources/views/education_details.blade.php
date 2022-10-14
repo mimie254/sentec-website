@@ -3,14 +3,14 @@
 
 
         <!-- Page Title -->
-        <section class="page-title" style="background-image: url(assets/images/background/page-title.jpg);">
+        <section class="page-title" style="background-image: url(/assets/images/background/page-title.jpg);">
             <div class="auto-container">
                 <div class="content-box clearfix">
                     <div class="title">
-                        <h1>Detail Page</h1>
+                        <h1>Education Sector</h1>
                     </div>
                     <ul class="bread-crumb clearfix pull-right">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
                         <li>About</li>
                         <li>Projects</li>
                         <li>Education-Sector</li>
@@ -27,13 +27,14 @@
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image-box">
-                            <figure class="image image-1"><img src="assets/images/gallery/protfolio-27.jpg" alt=""></figure>
+                            <figure class="image image-1"><img src="{{asset('assets/images/gallery/protfolio-27.jpg')}}" alt=""></figure>
                             <div class="overlay-content">
                                 <h5><a href="portfolio-details.html">Ridore High school </a></h5>
                                 </div>
                             </div>
+                        <br><br>
                             <div class="image-box">
-                            <figure class="image image-2"><img src="assets/images/gallery/protfolio-28.jpg" alt=""></figure>
+                            <figure class="image image-2"><img src="{{asset('assets/images/gallery/protfolio-28.jpg')}}" alt=""></figure>
                             <div class="overlay-content">
                                 <h5><a href="portfolio-details.html">Bukura Agricultural college</a></h5>
                             </div>
@@ -52,7 +53,7 @@
                                 Other institutions that have benefited from our SWH systems include Ridore High School (Kisumu) & Rift Valley Technical Training Institute (Eldoret).</p>
 
                             </div>
-                        
+
                         </div>
                     </div>
                 </div>
@@ -61,4 +62,3 @@
         <!-- project-details end -->
 
         @endsection
-        

@@ -3,14 +3,14 @@
 
 
         <!-- Page Title -->
-        <section class="page-title" style="background-image: url(assets/images/background/page-title.jpg);">
+        <section class="page-title" style="background-image: url(/assets/images/background/page-title.jpg);">
             <div class="auto-container">
                 <div class="content-box clearfix">
                     <div class="title">
-                        <h1>Detail Page</h1>
+                        <h1>Public Works</h1>
                     </div>
                     <ul class="bread-crumb clearfix pull-right">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
                         <li>Projects</li>
                         <li>PUBLIC WORKS/ GOVERNMENT SECTOR</li>
                     </ul>
@@ -26,15 +26,16 @@
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image-box">
-                            <figure class="image image-1"><img src="assets/images/gallery/protfolio-27.jpg" alt=""></figure>
+                            <figure class="image image-1"><img src="{{asset('assets/images/gallery/protfolio-27.jpg')}}" alt=""></figure>
                             <div class="overlay-content">
-                                <h5><a href="portfolio-details.html">Ministry of Housing- Shauri Moyo; Kisumu</a></h5>
+                                <h5><a href="#">Ministry of Housing- Shauri Moyo; Kisumu</a></h5>
                                 </div>
                             </div>
+                        <br><br>
                             <div class="image-box">
-                            <figure class="image image-2"><img src="assets/images/gallery/protfolio-28.jpg" alt=""></figure>
+                            <figure class="image image-2"><img src="{{asset('assets/images/gallery/protfolio-28.jpg')}}" alt=""></figure>
                             <div class="overlay-content">
-                                <h5><a href="portfolio-details.html">Maanzoni Lodges- Machakos</a></h5>
+                                <h5><a href="#">Maanzoni Lodges- Machakos</a></h5>
                             </div>
                         </div>
                     </div>
@@ -47,7 +48,7 @@
                                 <p><h4>Ministry of Housing- Shauri Moyo; Kisumu</h4>
                                 Description: Civil servants housing scheme- 250pcs of 250 liters SWH Project</p>
                                 <p><h4>Maanzoni Lodges- Machakos</h4>
-                                Description: 278 SWH systems 
+                                Description: 278 SWH systems
                                 <p><h4>Mombasa Port Area Road Development- Street lighting (Mwache Junction, Tsunza- Mteza section)
                                 </h4>
                                 Description: The street lighting is still underway. SENTEC has been charged with the responsibility of engineering, procurement, installation. Commissioning, testing, operation & management.</p>
@@ -55,7 +56,7 @@
                                 <p><h4>CID Headquarters – Kiambu Road, Nairobi</h4>
                                 Description:2,000 Liters of centralized solar water heating systems</p>
                             </div>
-                        
+
                         </div>
                     </div>
                 </div>

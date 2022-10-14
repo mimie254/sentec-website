@@ -29,12 +29,12 @@ Route::prefix("services")->group(function (){
 
 
 
-Route::get('/project',[SentecController::class,'pick']);
+Route::get('/projects',[SentecController::class,'pick']);
 Route::get('/contact',[SentecController::class,'take']);
 Route::get('/company',[SentecController::class,'give']);
 Route::get('/team',[SentecController::class,'team']);
-Route::get('/health_details',[SentecController::class,'health']);
-Route::get('/public_details',[SentecController::class,'public']);
-Route::get('/commercial_details',[SentecController::class,'commercial']);
-Route::get('/education_details',[SentecController::class,'education']);
-Route::get('/home_details',[SentecController::class,'home']);
+Route::get('/projects/health-sector',[SentecController::class,'health']);
+Route::get('/projects/public-works',[SentecController::class,'public']);
+Route::get('/projects/commercial-sector',[SentecController::class,'commercial']);
+Route::get('/projects/education-sector',[SentecController::class,'education']);
+Route::get('/projects/home-systems',[SentecController::class,'home']);

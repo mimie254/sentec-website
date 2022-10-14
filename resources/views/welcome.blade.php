@@ -11,7 +11,7 @@
                         <div class="content-box">
                             <h1>Bright <br />Alternative</h1>
                             <h6>Empowering our future with solar energy.</h6>
-                            <span class="big-text">sentec</span>
+                            {{--<span class="big-text">sentec</span>--}}
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,9 @@
                         <div class="content-box">
                             <h1>Turn to <br />solar power</h1>
                             <h6>Today’s resource for a brighter tomorrow.</h6>
+{{--
                             <span class="big-text">gogreen</span>
+--}}
                         </div>
                     </div>
                 </div>
@@ -170,20 +172,20 @@
                             <div class="inner-box">
                                 <figure class="image-box"><img src="{{asset('assets/images/solarPower.png')}}" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="link"><a href="{{url('solar')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/solar-photovoltaic-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="inner">
-                                        <div class="icon-box"><img src="assets/images/icons/icon-7.png" alt=""></div>
+                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-7.png')}}" alt=""></div>
                                         <div class="text">
                                             <span class="category"><Solar></Solar></span>
-                                            <h3><a href="{{url('solar')}}">Solar Power</a></h3>
+                                            <h3><a href="{{url('services/solar-photovoltaic-systems')}}">Solar Power</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="link"><a href="{{url('solar')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/solar-photovoltaic-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="text">
                                         <span class="category">Solar</span>
-                                        <h3><a href="{{url('solar')}}">Solar Power</a></h3>
+                                        <h3><a href="{{url('services/solar-photovoltaic-systems')}}">Solar Power</a></h3>
                                         <p>
                                             We use nature’s free light energy from the sun to provide electricity to all forms of requirements. Our solar power systems are sourced from highly accredited European supply markets of Germany and Denmark.                                        </p>
                                     </div>
@@ -196,21 +198,21 @@
                             <div class="inner-box">
                                 <figure class="image-box"><img src="{{asset('assets/images/waterHeating.png')}}" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="link"><a href="{{url('heater')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/water-heating-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="inner">
-                                        <div class="icon-box"><img src="assets/images/icons/icon-8.png" alt=""></div>
+                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-8.png')}}" alt=""></div>
                                         <div class="text">
                                             <span class="category">Heating</span>
-                                            <h3><a href="{{url('heater')}}">Water heating</a></h3>
+                                            <h3><a href="{{url('services/water-heating-systems')}}">Water heating</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="link"><a href="{{url('heater')}}"><i class="flaticon-right-arrow"></i>
+                                    <div class="link"><a href="{{url('services/water-heating-systems')}}"><i class="flaticon-right-arrow"></i>
                                             <span>More</span></a></div>
                                     <div class="text">
                                         <span class="category">Heating</span>
-                                        <h3><a href="{{url('heater')}}">Water Heating</a></h3>
+                                        <h3><a href="{{url('services/water-heating-systems')}}">Water Heating</a></h3>
                                         <p>
                                             We provide both flat plate and evacuated tube solar water heating systems to meet both individual and commercial hot water requirements. We guarantee support by local highly trained technical workforce for installation and maintenance services.                                        </p>
                                     </div>
@@ -225,20 +227,20 @@
                             <div class="inner-box">
                                 <figure class="image-box"><img src="{{asset('assets/images/inverter.png')}}" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="link"><a href="{{url('inverter')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/power-backup-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="inner">
-                                        <div class="icon-box"><img src="assets/images/icons/icon-9.png" alt=""></div>
+                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-9.png')}}" alt=""></div>
                                         <div class="text">
                                             <span class="category">Inverter</span>
-                                            <h3><a href="{{url('inverter')}}">Power Backup Systems</a></h3>
+                                            <h3><a href="{{url('services/power-backup-systems')}}">Power Backup Systems</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="link"><a href="{{url('inverter')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/power-backup-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="text">
                                         <span class="category">Inverter</span>
-                                        <h3><a href="{{url('inverter')}}">Power Backup Systems</a></h3>
+                                        <h3><a href="{{url('services/power-backup-systems')}}">Power Backup Systems</a></h3>
                                         <p>
                                             This system allows you to enjoy uninterrupted power supply all the times and hence allow one to carry out daily functions without fearing for power cuts & drips. They are noiseless and gives out back up power automatically.                                        </p>
                                     </div>
@@ -251,20 +253,20 @@
                             <div class="inner-box">
                                 <figure class="image-box"><img src="{{asset('assets/images/led.png')}}" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="link"><a href="{{url('led')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/LED-lighting-solutions')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="inner">
-                                        <div class="icon-box"><img src="assets/images/icons/icon-9.png" alt=""></div>
+                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-9.png')}}" alt=""></div>
                                         <div class="text">
                                             <span class="category">LED</span>
-                                            <h3><a href="{{url('led')}}">Lighting Solutions</a></h3>
+                                            <h3><a href="{{url('services/LED-lighting-solutions')}}">Lighting Solutions</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="link"><a href="{{url('led')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/LED-lighting-solutions')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="text">
                                         <span class="category">LED</span>
-                                        <h3><a href="{{url('led')}}">Lighting Solutions</a></h3>
+                                        <h3><a href="{{url('services/LED-lighting-solutions')}}">Lighting Solutions</a></h3>
                                         <p>
                                             These are independent compact lights that consists of solar panel, lithium ion battery, charge controller, and an LED light. some of the systems have motion sensors and run for 50,000 light hours in a single lifetime.                                    </div>
                                 </div>

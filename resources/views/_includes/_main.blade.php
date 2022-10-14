@@ -122,7 +122,7 @@
                                             <li><a href="{{url('/team')}}">Team</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="{{url('/')}}">Services</a>
+                                    <li class="dropdown"><a href="{{url('/services/solar-photovoltaic-systems')}}">Services</a>
                                         <ul style="width: 500px">
                                             <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Solar Photovoltaic Systems</a></li>
                                             <li><a href="{{url('/services/water-heating-systems')}}">Water Heating Systems</a></li>
@@ -132,7 +132,7 @@
                                             <li><a href="{{url('/services/power-backup-systems')}}">Power Backup Systems</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/project')}}">Projects</a>
+                                    <li><a href="{{url('/projects')}}">Projects</a>
                                     </li>
 
                                     <li><a href="{{url('/contact')}}">Contact</a></li>
@@ -285,7 +285,7 @@
                                     <li><a href="{{url('/company')}}">About Us</a></li>
                                     <li><a href="{{url('/team')}}">Our Team</a></li>
                                     <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Services</a></li>
-                                    <li><a href="{{url('/project')}}">Projects Portfolio</a></li>
+                                    <li><a href="{{url('/projects')}}">Projects Portfolio</a></li>
                                     <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                 </ul>
                             </div>
