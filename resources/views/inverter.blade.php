@@ -3,7 +3,7 @@
 
 
         <!-- Page Title -->
-        <section class="page-title" style="background-image: url(assets/images/background/page-title.jpg);">
+        <section class="page-title" style="background-image: url(/assets/images/background/page-title.jpg);">
             <div class="auto-container">
                 <div class="content-box clearfix">
                     <div class="title">
@@ -56,9 +56,7 @@
                                     <br>
 
                                     An inverter/charger would convert the AC power from the generator to charge the DC battery bank. An off grid inverter/charger would be converting the power in both directions, from AC to DC to charge the battery from the AC generator, and converting the DC power from the battery to AC for your appliances.</p>
-                                    <br>
-                                    <br>
-                                    <br>
+
                                 </div>
 
                             </div>

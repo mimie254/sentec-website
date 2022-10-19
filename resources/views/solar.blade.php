@@ -29,17 +29,26 @@
                         <div class="sidebar-widget category-widget">
                             <div class="widget-title">
                                 <h5>Main Services</h5>
-                                <div class="icon-box"><img src="{{asset('assets/images/icons/icon-54.png')}}" alt=""></div>
+                                <div class="icon-box"><img src="{{asset('assets/images/icons/icon-54.png')}}" alt="">
+                                </div>
                             </div>
                             <div class="widget-content">
                                 <ul class="category-list clearfix">
+                                    <li><a href="{{url('services/lighting-solutions')}}"><i
+                                                class="fas fa-angle-right"></i><span>Lighting Solutions</span></a>
+                                    </li>
                                     <li><a href="{{url('/services/solar-photovoltaic-systems')}}" class="current"><i
-                                                class="fas fa-angle-right"></i><span>Solar Photovoltaic Systems</span></a></li>
-                                    <li><a href="{{url('/services/water-heating-systems')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right"></i><span>Water Pumping Systems</span></a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right"></i><span>Street Lighting Solutions</span></a></li>
-                                    <li><a href="{{url('services/LED-lighting-solutions')}}"><i class="fas fa-angle-right"></i><span>LED Lighting Solutions</span></a></li>
-                                    <li><a href="{{url('services/power-backup-systems')}}"><i class="fas fa-angle-right"></i><span>Power Backup Systems</span></a></li>
+                                                class="fas fa-angle-right"></i><span>Solar Photovoltaic Systems</span></a>
+                                    </li>
+                                    <li><a href="{{url('/services/water-heating-systems')}}"><i
+                                                class="fas fa-angle-right"></i><span>Water Heating Systems</span></a>
+                                    </li>
+                                    <li><a href="#"><i class="fas fa-angle-right"></i><span>Water Pumping Systems</span></a>
+                                    </li>
+
+                                    {{--<li><a href="{{url('services/power-backup-systems')}}"><i
+                                                class="fas fa-angle-right"></i><span>Power Backup Systems</span></a>
+                                    </li>--}}
                                 </ul>
                             </div>
                         </div>
@@ -51,28 +60,38 @@
                                                         style="max-height: 450px" alt=""></figure>
                         <div class="content-one">
                             <div class="text">
-                                <h3>Rooftop Solar System</h3>
+                                <h3>Off-Grid/On-Grid Solar System</h3>
                                 <p>
-                                    We use nature’s free light energy from the sun to provide electricity to all forms of requirements. <br>Our solar power systems are sourced form highly accredited European supply markets of Germany and Denmark. <br>The solar power systems are provided on warranty terms carried by the manufacturer and adequately enforced by the SENTEC able technical department. <br>Systems and products in this category include off grid power solutions, grid tie solar power solutions and backup power solutions on turnkey arrangements. <br>Other products provided on individuality include high quality solar panels, reliable batteries, charge controllers and inverters
+                                    With an off-grid solar system, you’re completely reliant on the sun and energy
+                                    stored in batteries to power your home or business. And when the electricity
+                                    produced from your solar system is insufficient, the On-grid solar system enables
+                                    you to pull energy from the utility grid to supplement it.<br>
+                                    An Off-grid solar system is not connected to the utility grid and is completely
+                                    reliant on the sun and energy stored in batteries to power your home or business,
+                                    whereas the On-grid solar system, connected to the grid allows one to pull energy
+                                    from the utility grid as a supplement when the electricity produced from the solar
+                                    system is insufficient.
                                 </p>
                             </div>
-
+                            <figure class="main-image"><img src="{{asset('assets/images/off-on-grid.jpeg')}}"
+                                                            style="max-height: 300px" alt=""></figure>
                         </div>
-                        <div class="content-two">
+                        <div class="content-one">
                             <div class="text">
-                                <h3>Different Solar Panel Sizes</h3>
-                                <figure class="main-image"><img src="{{asset('assets/images/Different-Solar-Panel-Sizes.png')}}"
-                                                                style="max-height: 300px" alt=""></figure>
-                                <p>Solar Panels provide low cost energy solutions to the domestic, commercial and
-                                    industrial sectors of our economy. At SENTEC we are involved massively in sales and
-                                    distribution of solar panel of different sizes.<br>
+                                <h2>Inverters & Charge Controllers</h2>
+                                <p>
+                                    Quite often in an off grid solar power system, the batteries are charged with solar
+                                    panels. Sometimes solar power alone may not be enough to charge the battery, in
+                                    these cases, an AC generator can be used to help keep the battery charged.<br>
                                     <br>
-                                    Our team of engineers design and install solar solutions for you ensuring you get
-                                    the best solution that fit your needs.</p>
+                                    An inverter/charger would convert the AC power from the generator to charge the DC
+                                    battery bank. An off grid inverter/charger would be converting the power in both
+                                    directions, from AC to DC to charge the battery from the AC generator, and
+                                    converting the DC power from the battery to AC for your appliances.</p>
                             </div>
-
+                            <figure class="main-image"><img src="{{asset('assets/images/batterie.jpeg')}}"
+                                                            style="max-height: 300px" alt=""></figure>
                         </div>
-
                     </div>
                 </div>
             </div>

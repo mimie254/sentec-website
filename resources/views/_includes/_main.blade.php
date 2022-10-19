@@ -124,12 +124,13 @@
                                     </li>
                                     <li class="dropdown"><a href="{{url('/services/solar-photovoltaic-systems')}}">Services</a>
                                         <ul style="width: 500px">
+                                            <li><a href="{{url('services/lighting-solutions')}}">Lighting Solutions</a></li>
                                             <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Solar Photovoltaic Systems</a></li>
                                             <li><a href="{{url('/services/water-heating-systems')}}">Water Heating Systems</a></li>
                                             <li><a href="#">Water Pumping Systems</a></li>
-                                            <li><a href="#">Street Lighting Solutions</a></li>
-                                            <li><a href="{{url('services/LED-lighting-solutions')}}">Led Lighting Solutions</a></li>
+{{--
                                             <li><a href="{{url('/services/power-backup-systems')}}">Power Backup Systems</a></li>
+--}}
                                         </ul>
                                     </li>
                                     <li><a href="{{url('/projects')}}">Projects</a>

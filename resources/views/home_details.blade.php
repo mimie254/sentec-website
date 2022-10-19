@@ -49,10 +49,12 @@
                                 and have
                                 benefitted from our water heating solutions, lighting as well back up solutions. <br>
                                 Some of the projects include;</p>
-                            <p><h4>Karen Residential Home</h4>
+                            <p>
+                            <h4>Karen Residential Home</h4>
                             Description:Combined SWH System & P.V Hybrid System<br><br>
                             Impact: Reduced up to 60% on high electricity costs previously incurred by the residential
-                            home</p>
+                            home
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -60,6 +62,4 @@
         </div>
     </section>
     <!-- project-details end -->
-
-
 @endsection

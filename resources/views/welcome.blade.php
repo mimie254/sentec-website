@@ -6,17 +6,17 @@
         <section class="banner-section centred">
             <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
+                    <div class="image-layer" style="background-image:url(assets/images/banner/street-light.jpeg)"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <h1>Bright <br />Alternative</h1>
-                            <h6>Empowering our future with solar energy.</h6>
+                            <h6>Powering our streets with solar energy.</h6>
                             {{--<span class="big-text">sentec</span>--}}
                         </div>
                     </div>
                 </div>
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-2.jpg)"></div>
+                    <div class="image-layer" style="background-image:url(assets/images/banner/solar-banner.jpeg)"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <h1>Turn to <br />solar power</h1>
@@ -38,14 +38,18 @@
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column d-none d-md-block">
                         <div class="image_block_1">
-                            <div class="image-box">
-                                <figure class="image image-1"><img src="assets/images/resource/about-1.jpg" alt=""></figure>
+                            <div class="image-box" style="padding: 0px">
+                                <figure class="image image-1"><img src="{{asset('assets/images/demo.jpeg')}}" alt=""></figure>
+{{--
                                 <figure class="image image-2"><img style="width: 50%" src="{{asset('assets/images/solarPower.png')}}" alt=""></figure>
-                                <figure class="image image-3"><img src="assets/images/icons/bulb-1.png" alt=""></figure>
-                                <div class="text">
+--}}
+{{--
+                                <figure class="image image-3"><img src="/assets/images/icons/bulb-1.png" alt=""></figure>
+--}}
+                                {{--<div class="text">
                                     <h2>06<span>+</span></h2>
                                     <h6>Years Experienced</h6>
-                                </div>
+                                </div>--}}
                             </div>
                         </div>
                     </div>
