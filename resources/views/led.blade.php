@@ -7,12 +7,12 @@
             <div class="auto-container">
                 <div class="content-box clearfix">
                     <div class="title">
-                        <h1>LED LIGHTING SOLUTIONS</h1>
+                        <h1>LIGHTING SOLUTIONS</h1>
                     </div>
                     <ul class="bread-crumb clearfix pull-right">
                         <li><a href="{{url('/')}}">Home</a></li>
                         <li>Services</li>
-                        <li>Led Lighting Solutions</li>
+                        <li>Lighting Solutions</li>
                     </ul>
                 </div>
             </div>
@@ -33,11 +33,15 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="category-list clearfix">
-                                        <li><a  class="current" href="{{url('services/lighting-solutions')}}"><i class="fas fa-angle-right"></i><span>Lighting Solutions</span></a></li>
+                                        <li><a href="{{url('services/lighting-solutions')}}" class="current"><i
+                                                    class="fas fa-angle-right"></i><span>Lighting Solutions</span></a>
+                                        </li>
                                         <li><a href="{{url('/services/solar-photovoltaic-systems')}}"><i
-                                                    class="fas fa-angle-right"></i><span>Solar Photovoltaic Systems</span></a></li>
-                                        <li><a href="{{url('/services/water-heating-systems')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
-                                        <li><a href="#"><i class="fas fa-angle-right"></i><span>Water Pumping Systems</span></a></li>
+                                                    class="fas fa-angle-right"></i><span>Solar Power Solutions</span></a>
+                                        </li>
+                                        <li><a href="{{url('/services/water-heating-systems')}}"><i
+                                                    class="fas fa-angle-right"></i><span>Water Heating Systems</span></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -45,16 +49,15 @@
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div class="service-details-content">
-                            <figure class="main-image"><img src="{{asset('assets/images/led.png')}}" style="height: 450px" alt=""></figure>
-                            <div class="content-one">
-                                <div class="text">
-                                    <h2>LED LIGHTING SOLUTIONS</h2>
+                            <div class="content-one mb-1">
+                                <div class="text mb-1">
+                                    <h5>LED LIGHTING SOLUTIONS</h5>
+                                    <hr>
                                     <p>These are independent compact lights that consists of solar panel, lithium ion battery, charge controller, and an LED light. Some of the systems have motion sensors and run for 50,000 light hours in a single lifetime.<br>
                                     <br>
 
                                     Suitable for outdoor lighting for both domestic and industrial uses. Use of solar LED security lights saves costs on main lighting components through zero monthly billing, fitting replacements after every single year and zero cabling.</p>
-                                    <br>
-                                    <br>
+
                                 </div>
                             </div>
                             <div class="row clearfix">
@@ -189,16 +192,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="content-one">
-                                <div class="text">
-                                    <h2>STREET LIGHTING SOLUTIONS</h2>
+                            <div class="content-one mt-3">
+                                <div class="text mb-1">
+                                    <h5>STREET LIGHTING SOLUTIONS</h5>
+                                    <hr>
                                     <p>These are independent compact lights that consists of solar panel, lithium ion battery, charge controller, and an LED light. Some of the systems have motion sensors and run for 50,000 light hours in a single lifetime.<br>
                                         <br>
 
                                         Suitable for outdoor lighting for both domestic and industrial uses. Use of solar LED security lights saves costs on main lighting components through zero monthly billing, fitting replacements after every single year and zero cabling.</p>
                                     <br>
-                                    <br>
                                 </div>
+                                <figure class="image-box"><img src="{{asset('assets/images/banner/street-light.jpeg')}}" alt=""></figure>
+
                             </div>
                         </div>
                     </div>

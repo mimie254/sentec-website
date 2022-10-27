@@ -33,11 +33,15 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="category-list clearfix">
-                                    <li><a href="{{url('services/lighting-solutions')}}"><i class="fas fa-angle-right"></i><span>Lighting Solutions</span></a></li>
+                                    <li><a href="{{url('services/lighting-solutions')}}" ><i
+                                                class="fas fa-angle-right"></i><span>Lighting Solutions</span></a>
+                                    </li>
                                     <li><a href="{{url('/services/solar-photovoltaic-systems')}}"><i
-                                                class="fas fa-angle-right"></i><span>Solar Photovoltaic Systems</span></a></li>
-                                    <li><a class="current" href="{{url('/services/water-heating-systems')}}"><i class="fas fa-angle-right"></i><span>Water Heating Systems</span></a></li>
-                                    <li><a href="#"><i class="fas fa-angle-right"></i><span>Water Pumping Systems</span></a></li>
+                                                class="fas fa-angle-right"></i><span>Solar Power Solutions</span></a>
+                                    </li>
+                                    <li><a href="{{url('/services/water-heating-systems')}}" class="current"><i
+                                                class="fas fa-angle-right"></i><span>Water Heating Systems</span></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -45,19 +49,10 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                     <div class="service-details-content">
-                        <figure class="main-image"><img src="{{asset('assets/images/wheating.png')}}"
-                                                        style="max-height: 450px" alt=""></figure>
-                        <div class="content-one">
-                            <div class="text">
-                                <p>
-                                    We provide both flat plate and evacuated tube solar water heating systems to meet both individual and commercial hot water requirements. <br>Our systems are sourced form high standardized European markets and are supported by local highly trained technical work force for installation and maintenance services. <br>These systems enables one to save up 70% of water heating electricity bills using free heat energy from the sun.
-                                </p>
-                            </div>
-
-                        </div>
                         <div class="content-two">
                             <div class="text">
-                                <h3>Flat plate solar water heating system</h3>
+                                <h5>Flat plate solar water heating system</h5>
+                                <hr>
                                 <figure class="main-image"><img src="{{asset('assets/images/Flat-plate-solar-water-heating-system.png')}}"
                                                                 style="max-height: 300px" alt=""></figure>
                                 <p>
@@ -78,7 +73,8 @@
                         </div>
                         <div class="content-two">
                             <div class="text">
-                                <h3>Evacuated tube solar water heating system (pressurized and non-pressurized)</h3>
+                                <h5>Evacuated tube solar water heating system (pressurized and non-pressurized)</h5>
+                                <hr>
                                 <figure class="main-image"><img src="{{asset('assets/images/Evacuated-tube-solar-water-heating-system.png')}}"
                                                                 style="max-height: 300px" alt=""></figure>
                                 <p>Evacuated tube comprises of a smaller glass tube suspended within a larger glass

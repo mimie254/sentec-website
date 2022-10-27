@@ -10,7 +10,7 @@
                     <h1>SENTEC Team</h1>
                 </div>
                 <ul class="bread-crumb clearfix pull-right">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{url('/')}}">Home</a></li>
                     <li>About</li>
                     <li>Team</li>
                 </ul>
@@ -36,7 +36,7 @@
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-box">
-                        <figure class="image"><img src="{{asset('assets/images/paul.png')}}" alt=""></figure>
+                        <figure class="image"><img src="{{asset('assets/images/paul.jpg')}}" alt=""></figure>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">

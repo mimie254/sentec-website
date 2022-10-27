@@ -27,16 +27,16 @@
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image-box">
-                            <figure class="image image-1"><img src="{{asset('assets/images/gallery/protfolio-27.jpg')}}" alt=""></figure>
+                            <figure class="image image-2"><img src="{{asset('assets/images/gallery/protfolio-27.jpg')}}" alt=""></figure>
                             <div class="overlay-content">
-                                <h5><a href="portfolio-details.html">Ridore High school </a></h5>
+                                <h5>Ridore High school</h5>
                                 </div>
                             </div>
                         <br><br>
                             <div class="image-box">
-                            <figure class="image image-2"><img src="{{asset('assets/images/gallery/protfolio-28.jpg')}}" alt=""></figure>
+                            <figure class="image image-2"><img src="{{asset('assets/images/bu')}}" alt=""></figure>
                             <div class="overlay-content">
-                                <h5><a href="portfolio-details.html">Bukura Agricultural college</a></h5>
+                                <h5>Bukura Agricultural college</h5>
                             </div>
                         </div>
                     </div>
@@ -44,6 +44,7 @@
                         <div class="content-box">
                             <div class="text">
                                 <h3>EDUCATION SECTOR</h3>
+                                <hr>
                                 <p>Education offers the opportunity to break the poverty cycle, however, most schools in Kenya don’t have access to reliable energy. Power supply has a both an indirect and direct impact on the education sector therefore a reliable source of power is key to ensure good quality of education. The use of solar power has been proven to help bridge this gap. Through the use of solar schools can meet 75 percent of their electricity need and reduce their carbon footprint. The use of solar also helps schools free up much needed money within their budgets which can in turn be channeled to cover other important costs.</p>
                                 <p>
                                 SENTEC solar has undertaken both heating and lighting projects that have had a major impact.

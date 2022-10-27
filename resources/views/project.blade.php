@@ -60,7 +60,8 @@
                                     </h3>
                                     <p>The hospital has managed to save over 400,000/= per month on their electric bills while
                                         supplying hot water to 400 patients and hospital staff daily.</p>
-                                    <figure class="image-box"><a href="{{url('/projects/health-sector')}}"><img src="assets/images/news/news-6.jpg" alt=""></a></figure>
+                                    <figure class="image-box"><a href="{{url('/projects/health-sector')}}">
+                                            <img src="{{asset('assets/images/gatundu.png')}}" alt=""></a></figure>
                                     <div class="btn-box">
                                     <li><a href="{{url('/projects/health-sector')}}"><i class="fas fa-long-arrow-right"></i>More on Health Sector<span></span></a></li>
                                     </div>
@@ -75,7 +76,7 @@
                                     <h3><a href="{{url('/projects/education-sector')}}">Rift valley technical Institute- 3000liters SWH Project</a></h3><p>Provides reliable hot water to the students which
                                     is much needed in the cold Eldoret climatic conditions. The institution has lowered electricity
                                     bills by 90,000/= monthly</p>
-                                    <figure class="image-box"><a href="{{url('/projects/education-sector')}}"><img src="{{asset('assets/images/news/news-7.jpg')}}" alt=""></a></figure>
+                                    <figure class="image-box"><a href="{{url('/projects/education-sector')}}"><img src="{{asset('assets/images/education.png')}}" alt=""></a></figure>
                                     <div class="btn-box">
                                     <li><a href="{{url('/projects/education-sector')}}"><i class="fas fa-long-arrow-right"></i>More on Education<span></span></a></li>
                                     </div>
@@ -87,10 +88,10 @@
                                         <li><i class="far fa-folder"></i><a href="{{url('projects/commercial-sector')}}">INDUSTRIAL & COMMERCIAL SECTOR</a></li>
                                         <li><i class="far fa-user"></i>Two Rivers Mall</li>
                                     </ul>
-                                    <h3><a href="blog-details.html">Expansion of 1.2 Mwp plant to 1.45vMwp</a></h3>
+                                    <h3><a href="{{url('projects/commercial-sector')}}">Expansion of 1.2 Mwp plant to 1.45vMwp</a></h3>
                                     <p>Injecting over 271000 KwHrs in the system and generating over 6M income to the Two Rivers
                                         project.</p>
-                                    <figure class="image-box"><a href="{{url('projects/commercial-sector')}}"><img src="{{asset('assets/images/news/news-8.jpg')}}" alt=""></a></figure>
+                                    <figure class="image-box"><a href="{{url('projects/commercial-sector')}}"><img src="{{asset('assets/images/tworivers.png')}}" alt=""></a></figure>
                                     <div class="btn-box">
                                     <li><a href="{{url('projects/commercial-sector')}}"><i class="fas fa-long-arrow-right"></i>More on Commercial Sector<span></span></a></li>
                                     </div>
@@ -104,7 +105,7 @@
                                     </ul>
                                     <h3><a href="{{url('projects/public-works')}}">2,000 Liters of centralized solar water heating systems</a></h3>
 
-                                    <figure class="image-box"><a href="{{url('projects/public-works')}}"><img src="{{asset('assets/images/news/news-9.jpg')}}" alt=""></a></figure>
+                                    <figure class="image-box"><a href="{{url('projects/public-works')}}"><img src="{{asset('assets/images/cid.png')}}" alt=""></a></figure>
                                     <div class="btn-box">
                                     <li><a href="{{url('projects/public-works')}}"><i class="fas fa-long-arrow-right"></i>More on Public Works<span></span></a></li>
                                     </div>
@@ -117,7 +118,7 @@
                                         <li><i class="far fa-user"></i>Karen Residential Home</li>
                                     </ul>
                                     <h3><a href="{{url('projects/home-systems')}}">Combined SWH System & P.V Hybrid System</a></h3>
-                                    <figure class="image-box"><a href="{{url('projects/home-systems')}}"><img src="{{asset('assets/images/news/news-10.jpg')}}" alt=""></a></figure>
+                                    <figure class="image-box"><a href="{{url('projects/home-systems')}}"><img src="{{asset('assets/images/karem.png')}}" alt=""></a></figure>
                                     <div class="btn-box">
                                     <li><a href="{{url('projects/home-systems')}}"><i class="fas fa-long-arrow-right"></i>READ MORE
                                         <span></span></a></li>

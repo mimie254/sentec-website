@@ -27,16 +27,16 @@
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image-box">
-                            <figure class="image image-1"><img src="{{asset('assets/images/gallery/protfolio-27.jpg')}}" alt=""></figure>
+                            <figure class="image image-2"><img src="{{asset('assets/images/roy.png')}}" alt=""></figure>
                             <div class="overlay-content">
-                                <h5><a href="portfolio-details.html">Roy Haulier</a></h5>
+                                <h5>Roy Haulier</h5>
                                 </div>
                             </div>
                         <br><br>
                             <div class="image-box">
-                            <figure class="image image-2"><img src="{{asset('assets/images/gallery/protfolio-28.jpg')}}" alt=""></figure>
+                            <figure class="image image-2"><img src="{{asset('assets/images/kim.png')}}" alt=""></figure>
                             <div class="overlay-content">
-                                <h5><a href="portfolio-details.html">Kim Fay Factory</a></h5>
+                                <h5>Kim Fay Factory</h5>
                             </div>
                         </div>
                     </div>
@@ -44,23 +44,26 @@
                         <div class="content-box">
                             <div class="text">
                                 <h3>INDUSTRIAL & COMMERCIAL SECTOR</h3>
-                                <p>With significant increase in energy prices annually as well as their carbon footprint. Generating solar power introduces massive benefits to companies by reducing energy costs, whilst getting a good return on investment. Savings made in turn reduce high operational costs and are channeled to other priority areas within these companies.</p>
-                                <p>
-                                SENTEC has undertaken a number of projects within the industrial/ commercial sector which has had an
-                                impact on their savings and efficiency.
-                                Some of the projects include;
-                                <p><h4>Roy Haulier</h4>
-                                Description: 50 Kwp (Grid tie P.V System)<br>
-                                Impact: Reduced up to 60% on high electricity costs previously incurred by the institution.</p>
-                                <h4>Kim Fay Factory</h4>
-                                Description: Expansion of 1.2 Mwp plant to 1.45vMwp<br>
-                                Impact: Saving up to 30% of the factory’s electricity costs.</p>
-                                <h4>Two Rivers Mall</h4>
-                                Description: 22.5 Kwp (Grid tie P.V System)<br>
-                                Impact: Injecting over 271000 KwHrs in the system and generating over 6M income to the Two Rivers
-                                project<br> </p>
-                                <h4>Fairdeal Mombasa</h4>
-                                Description: 40.2 Kwp (Grid tie P.V System)<br> </p>
+                                <hr>
+                                <div class="col-md-12 ml-1">
+                                    <p>With significant increase in energy prices annually as well as their carbon footprint. Generating solar power introduces massive benefits to companies by reducing energy costs, whilst getting a good return on investment. Savings made in turn reduce high operational costs and are channeled to other priority areas within these companies.</p>
+                                    <p>
+                                        SENTEC has undertaken a number of projects within the industrial/ commercial sector which has had an
+                                        impact on their savings and efficiency.
+                                        Some of the projects include;
+                                    <p><h5>Roy Haulier</h5><hr>
+                                    Description: 50 Kwp (Grid tie P.V System)<br>
+                                    Impact: Reduced up to 60% on high electricity costs previously incurred by the institution.</p>
+                                    <h5>Kim Fay Factory</h5><hr>
+                                    Description: Expansion of 1.2 Mwp plant to 1.45vMwp<br>
+                                    Impact: Saving up to 30% of the factory’s electricity costs.</p>
+                                    <h5>Two Rivers Mall</h5><hr>
+                                    Description: 22.5 Kwp (Grid tie P.V System)<br>
+                                    Impact: Injecting over 271000 KwHrs in the system and generating over 6M income to the Two Rivers
+                                    project<br> </p>
+                                    <h5>Fairdeal Mombasa</h5><hr>
+                                    Description: 40.2 Kwp (Grid tie P.V System)<br> </p>
+                                </div>
                             </div>
 
                         </div>

@@ -122,15 +122,11 @@
                                             <li><a href="{{url('/team')}}">Team</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="{{url('/services/solar-photovoltaic-systems')}}">Services</a>
+                                    <li class="dropdown"><a href="{{url('/services/solar-photovoltaic-systems')}}">Services/Products</a>
                                         <ul style="width: 500px">
                                             <li><a href="{{url('services/lighting-solutions')}}">Lighting Solutions</a></li>
-                                            <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Solar Photovoltaic Systems</a></li>
+                                            <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Solar Power Solutions</a></li>
                                             <li><a href="{{url('/services/water-heating-systems')}}">Water Heating Systems</a></li>
-                                            <li><a href="#">Water Pumping Systems</a></li>
-{{--
-                                            <li><a href="{{url('/services/power-backup-systems')}}">Power Backup Systems</a></li>
---}}
                                         </ul>
                                     </li>
                                     <li><a href="{{url('/projects')}}">Projects</a>
@@ -285,7 +281,7 @@
                                 <ul class="links-list clearfix">
                                     <li><a href="{{url('/company')}}">About Us</a></li>
                                     <li><a href="{{url('/team')}}">Our Team</a></li>
-                                    <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Services</a></li>
+                                    <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Services/Products</a></li>
                                     <li><a href="{{url('/projects')}}">Projects Portfolio</a></li>
                                     <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                 </ul>
