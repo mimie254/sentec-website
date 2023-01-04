@@ -27,6 +27,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="slide-item">
+                    <div class="image-layer" style="background-image:url(assets/images/third.jpeg)"></div>
+                    <div class="auto-container">
+                        <div class="content-box">
+                            <h1>Turn to <br />solar power</h1>
+                            <h6>Today’s resource for a brighter tomorrow.</h6>
+                            {{--
+                                                        <span class="big-text">gogreen</span>
+                            --}}
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- banner-section end -->
@@ -172,6 +184,31 @@
                 </div>
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="{{asset('assets/images/led.png')}}" alt=""></figure>
+                                <div class="content-box">
+                                    <div class="link"><a href="{{url('services/LED-lighting-solutions')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="inner">
+                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-9.png')}}" alt=""></div>
+                                        <div class="text">
+                                            <span class="category">Lighting</span>
+                                            <h3><a href="{{url('services/LED-lighting-solutions')}}">Lighting Solutions</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="link"><a href="{{url('services/LED-lighting-solutions')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="text">
+                                        <span class="category">LED</span>
+                                        <h3><a href="{{url('services/LED-lighting-solutions')}}">Lighting Solutions</a></h3>
+                                        <p>
+                                            These are independent compact lights that consists of solar panel, lithium ion battery, charge controller, and an LED light. some of the systems have motion sensors and run for 50,000 light hours in a single lifetime.                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 service-block">
                         <div class="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box"><img src="{{asset('assets/images/solarPower.png')}}" alt=""></figure>
@@ -197,6 +234,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row clearfix mt-5">
                     <div class="col-lg-6 col-md-6 col-sm-12 service-block">
                         <div class="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
@@ -224,55 +263,30 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row clearfix mt-5">
                     <div class="col-lg-6 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('assets/images/inverter.png')}}" alt=""></figure>
+                                <figure class="image-box"><img src="{{asset('assets/images/waterPumping.jpeg')}}" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="link"><a href="{{url('services/power-backup-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/solar-photovoltaic-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <div class="inner">
-                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-9.png')}}" alt=""></div>
+                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-8.png')}}" alt=""></div>
                                         <div class="text">
-                                            <span class="category">Inverter</span>
-                                            <h3><a href="{{url('services/power-backup-systems')}}">Power Backup Systems</a></h3>
+                                            <span class="category">Heating</span>
+                                            <h3><a href="{{url('services/solar-photovoltaic-systems')}}">Water Pumping</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="link"><a href="{{url('services/power-backup-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('services/solar-photovoltaic-systems')}}"><i class="flaticon-right-arrow"></i>
+                                            <span>More</span></a></div>
                                     <div class="text">
-                                        <span class="category">Inverter</span>
-                                        <h3><a href="{{url('services/power-backup-systems')}}">Power Backup Systems</a></h3>
+                                        <span class="category">Heating</span>
+                                        <h3><a href="{{url('services/solar-photovoltaic-systems')}}">Water Pumping</a></h3>
                                         <p>
-                                            This system allows you to enjoy uninterrupted power supply all the times and hence allow one to carry out daily functions without fearing for power cuts & drips. They are noiseless and gives out back up power automatically.                                        </p>
+                                            We provide solar water pumping solutions for both domestic ground water supply as well as irrigation systems.
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('assets/images/led.png')}}" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="link"><a href="{{url('services/LED-lighting-solutions')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
-                                    <div class="inner">
-                                        <div class="icon-box"><img src="{{asset('assets/images/icons/icon-9.png')}}" alt=""></div>
-                                        <div class="text">
-                                            <span class="category">LED</span>
-                                            <h3><a href="{{url('services/LED-lighting-solutions')}}">Lighting Solutions</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="overlay-content">
-                                    <div class="link"><a href="{{url('services/LED-lighting-solutions')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
-                                    <div class="text">
-                                        <span class="category">LED</span>
-                                        <h3><a href="{{url('services/LED-lighting-solutions')}}">Lighting Solutions</a></h3>
-                                        <p>
-                                            These are independent compact lights that consists of solar panel, lithium ion battery, charge controller, and an LED light. some of the systems have motion sensors and run for 50,000 light hours in a single lifetime.                                    </div>
                                 </div>
                             </div>
                         </div>

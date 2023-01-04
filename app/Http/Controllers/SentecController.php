@@ -32,6 +32,11 @@ class SentecController extends Controller
     }
     public function pick()
     {
+        return view ('project_new');
+    }
+
+    public function pick2()
+    {
         return view ('project');
     }
     public function give()
@@ -62,5 +67,5 @@ class SentecController extends Controller
     {
         return view ('education_details');
     }
-    
+
 }

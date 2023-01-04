@@ -30,6 +30,7 @@ Route::prefix("services")->group(function (){
 
 
 Route::get('/projects',[SentecController::class,'pick']);
+Route::get('/projects-old',[SentecController::class,'pick2']);
 Route::get('/contact',[SentecController::class,'take']);
 Route::get('/company',[SentecController::class,'give']);
 Route::get('/team',[SentecController::class,'team']);

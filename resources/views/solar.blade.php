@@ -65,11 +65,8 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <p>
-                                                An Off-grid solar system is not connected to the utility grid and is completely
-                                                reliant on the sun and energy stored in batteries to power your home or business,
-                                                whereas the On-grid solar system, connected to the grid allows one to pull energy
-                                                from the utility grid as a supplement when the electricity produced from the solar
-                                                system is insufficient.
+                                                Our Off grid solar systems are ideal for residential rural houses not connected to the grid. We design a battery storage inclusive system can meet up to 100% of your electricity consumption,<br><br>
+                                                Whereas Our On grid (grid tie) solar systems utilize solar energy during day and Kenya Power at night. This option still enables you to offset a big part of your electricity bills .
                                             </p>
                                         </div>
                                         <div class="col-md-6">
@@ -86,9 +83,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <p>
-                                                Quite often in an off grid solar power system, the batteries are charged with solar
-                                                panels. Sometimes solar power alone may not be enough to charge the battery, in
-                                                these cases, an AC generator can be used to help keep the battery charged.<br>
+                                                Our Hybrid solar systems are connected to the grid but utilize solar energy during day and have backup batteries to store excess power that will continue to power up your home even at night. This can cover up to 70% of your electricity consumption.
                                             </p>
                                         </div>
                                         <div class="col-md-6">
@@ -104,13 +99,11 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <p>
-                                                Quite often in an off grid solar power system, the batteries are charged with solar
-                                                panels. Sometimes solar power alone may not be enough to charge the battery, in
-                                                these cases, an AC generator can be used to help keep the battery charged.<br>
+                                                We provide solarization for water pumping systems for both domestic ground water supply as well as irrigation systems.<br>
                                             </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <figure class="main-image"><img src="{{asset('assets/images/batterie.jpeg')}}"
+                                            <figure class="main-image"><img src="{{asset('assets/images/waterPumping.jpeg')}}"
                                                                             style="max-height: 300px" alt=""></figure>
                                         </div>
                                     </div>
@@ -121,43 +114,19 @@
                     <div class="service-details-content">
                         <h3>Commercial Solutions</h3>
                         <hr>
-                        {{--<div style="margin-left: 20px">
+                        <div style="margin-left: 20px">
                             <div class="content-one">
                                 <div class="text">
-
-                                    <h5>Off-Grid/On-Grid Solar System</h5>
                                     <p>
-                                        With an off-grid solar system, you’re completely reliant on the sun and energy
-                                        stored in batteries to power your home or business. And when the electricity
-                                        produced from your solar system is insufficient, the On-grid solar system enables
-                                        you to pull energy from the utility grid to supplement it.<br>
-                                        An Off-grid solar system is not connected to the utility grid and is completely
-                                        reliant on the sun and energy stored in batteries to power your home or business,
-                                        whereas the On-grid solar system, connected to the grid allows one to pull energy
-                                        from the utility grid as a supplement when the electricity produced from the solar
-                                        system is insufficient.
+                                        The increasingly high electricity bills are pushing various businesses and manufacturers to the wall. This affects their cost of production and ultimately their sales potential and market competitiveness.
+                                        <br>
+                                        Maximize your business' profitability by reducing your energy cost with our reliable solar power solutions.
                                     </p>
                                 </div>
-                                <figure class="main-image"><img src="{{asset('assets/images/off-on-grid.jpeg')}}"
+                                <figure class="main-image"><img src="{{asset('assets/images/commercial.jpeg')}}"
                                                                 style="max-height: 300px" alt=""></figure>
                             </div>
-                            <div class="content-one">
-                                <div class="text">
-                                    <h5>Inverters & Charge Controllers</h5>
-                                    <p>
-                                        Quite often in an off grid solar power system, the batteries are charged with solar
-                                        panels. Sometimes solar power alone may not be enough to charge the battery, in
-                                        these cases, an AC generator can be used to help keep the battery charged.<br>
-                                        <br>
-                                        An inverter/charger would convert the AC power from the generator to charge the DC
-                                        battery bank. An off grid inverter/charger would be converting the power in both
-                                        directions, from AC to DC to charge the battery from the AC generator, and
-                                        converting the DC power from the battery to AC for your appliances.</p>
-                                </div>
-                                <figure class="main-image"><img src="{{asset('assets/images/batterie.jpeg')}}"
-                                                                style="max-height: 300px" alt=""></figure>
-                            </div>
-                        </div>--}}
+                        </div>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@
                         <h1>Contact Us</h1>
                     </div>
                     <ul class="bread-crumb clearfix pull-right">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
                         <li>Contact</li>
                     </ul>
                 </div>
@@ -68,7 +68,7 @@
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="far fa-envelope-open"></i></div>
                                 <h6>Email</h6>
-                                <span><a href="mailto:info@sentecltd.com">INFO [AT] SENTECLTD.COM</a></span>
+                                <span><a href="mailto:info@sentecltd.com">info@sentecltd.com</a></span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-headphones"></i></div>

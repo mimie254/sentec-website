@@ -52,7 +52,7 @@
                                     University) and currently pursuing Masters in business administration (strategic
                                     management –JKUAT).<br>
 
-                                    I have six years’ experience in energy sector with a focus on development,
+                                    I have over ten years' experience in energy sector with a focus on development,
                                     construction and service .My desire is to work, develop and perfect into a
                                     multidisciplinary team leader in energy and resources management for accessibility
                                     and environmental conservation.</p>

@@ -52,7 +52,6 @@
                                 student hostels. Previously the institution used firewood heated boilers to heat their water which was both expensive, unsafe and environmentally unfriendly.Since the installation of the systems the institution has been able to save on costs, given students reliable access to hot water through installed showers and saved the environment through reduced use of firewood.</p>
                                 <p>
                                 Other institutions that have benefited from our SWH systems include Ridore High School (Kisumu) & Rift Valley Technical Training Institute (Eldoret).</p>
-
                             </div>
 
                         </div>
