@@ -30,7 +30,7 @@
     <link href="{{asset('assets/css/responsive.css')}}" rel="stylesheet">
 
     <style>
-        .image-box {
+        .image-box-elm {
             position: unset !important;
             display: flex !important;
             height: 246px !important;
@@ -130,13 +130,14 @@
                                             <li><a href="{{url('/team')}}">Team</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="{{url('/services/solar-photovoltaic-systems')}}">Main Services/Products</a>
+                                    <li class="dropdown"><a href="{{url('/services/solar-photovoltaic-systems')}}">Main Services</a>
                                         <ul style="width: 500px">
                                             <li><a href="{{url('services/lighting-solutions')}}">Lighting Solutions</a></li>
                                             <li><a href="{{url('/services/solar-photovoltaic-systems')}}">Solar Power Solutions</a></li>
                                             <li><a href="{{url('/services/water-heating-systems')}}">Water Heating Systems</a></li>
                                         </ul>
                                     </li>
+                                    <li><a href="{{url('/products')}}">Products</a>
                                     <li><a href="{{url('/projects')}}">Projects</a>
                                     </li>
 

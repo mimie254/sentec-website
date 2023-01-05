@@ -35,6 +35,21 @@ class SentecController extends Controller
         return view ('project_new');
     }
 
+    public function products()
+    {
+        return view ('products');
+    }
+
+    public function inverters()
+    {
+        return view ('inverters');
+    }
+
+    public function batteries()
+    {
+        return view ('batteries');
+    }
+
     public function pick2()
     {
         return view ('project');

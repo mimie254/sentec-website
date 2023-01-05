@@ -24,16 +24,6 @@
     <section class="project-details">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <div class="image-box">
-                        <figure class="image image-1"><img src="{{asset('assets/images/karem.png')}}"
-                                                           alt=""></figure>
-                        <div class="overlay-content">
-                            <h5>Karen Residential Home</h5>
-                        </div>
-                    </div>
-                    <br><br>
-                </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="text">
@@ -52,6 +42,16 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div class="image-box">
+                        <figure class="image image-1"><img src="{{asset('assets/images/karem.png')}}"
+                                                           alt=""></figure>
+                        <div class="overlay-content">
+                            <h5>Karen Residential Home</h5>
+                        </div>
+                    </div>
+                    <br><br>
                 </div>
             </div>
         </div>

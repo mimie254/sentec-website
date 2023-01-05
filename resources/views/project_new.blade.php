@@ -1,4 +1,7 @@
 @extends('_includes._main')
+@section('css')
+
+    @endsection
 @section('content')
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/page-title.jpg);">
@@ -47,7 +50,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/deramland.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/deramland.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -73,7 +76,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/leonard.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/leonard.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -99,7 +102,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/gatundu.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/gatundu.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -140,7 +143,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/waterHeating.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/waterHeating.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -164,13 +167,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/waterHeating.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/waterHeating.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
                                     <div class="text">
                                         <span class="category">Kabarak University</span>
-                                        <h3><a href="{{url('/projects/education-sector')}}">106kWp PV System</a></h3>
+                                        <h3><a href="{{url('/projects/education-sector')}}">9600 liters SWH </a></h3>
                                     </div>
                                     <div class="link"><a href="{{url('/projects/education-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                 </div>
@@ -188,7 +191,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/bukura.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/bukura.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -200,7 +203,7 @@
                                 </div>
                                 <div class="overlay-content">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
-                                    <div class="link"><a href="service-details.html"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <div class="link"><a href="{{url('/projects/education-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
                                     <span class="category">Bukura Agricultural College</span>
                                     <h3><a href="{{url('/projects/education-sector')}}">5kWp Solar Water Pumping Project</a></h3>
                                     <p>5kWp Solar Water Pumping Project</p>
@@ -212,7 +215,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/service/service-13.jpg" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/leonard.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -248,7 +251,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/roy.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/roy.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -272,7 +275,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/kim.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/kim.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -296,7 +299,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/tworivers.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/tworivers.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -332,7 +335,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/street-lighting.jpeg')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/street-lighting.jpeg')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -358,7 +361,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/cid.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/cid.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -382,7 +385,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/shaurimoyo.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/shaurimoyo.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -406,7 +409,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/maanzoni.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/maanzoni.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -442,7 +445,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{asset('assets/images/karem.png')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/karem.png')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -466,7 +469,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/service/service-12.jpg" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="assets/images/service/service-12.jpg" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -490,7 +493,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/service/service-13.jpg" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="assets/images/service/service-13.jpg" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>

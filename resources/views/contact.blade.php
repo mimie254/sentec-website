@@ -47,7 +47,7 @@
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-headphones"></i></div>
                                 <h6>Sales Team</h6>
-                                <span><a href="tel:+254 725 445 459">+254 700 042150</a></span>
+                                <span><a href="tel:+254 725 445 459">+254 723 435 801</a></span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="far fa-clock"></i></div>
@@ -73,7 +73,7 @@
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-headphones"></i></div>
                                 <h6>Marketing</h6>
-                                <span><a href="tel: +254 709 750 074"> +254 757 674466</a></span>
+                                <span><a href="tel: +254 709 750 074"> +254 712119884</a></span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-question"></i></div>

@@ -29,6 +29,9 @@ Route::prefix("services")->group(function (){
 
 
 
+Route::get('/products/solar',[SentecController::class,'products']);
+Route::get('/products/inverters',[SentecController::class,'inverters']);
+Route::get('/products/batteries',[SentecController::class,'batteries']);
 Route::get('/projects',[SentecController::class,'pick']);
 Route::get('/projects-old',[SentecController::class,'pick2']);
 Route::get('/contact',[SentecController::class,'take']);

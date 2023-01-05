@@ -99,10 +99,10 @@
                                 </li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -255,11 +255,11 @@
                 </div>
                 <div class="social-links">
                     <ul class="clearfix">
-                    <li><a href="{{url('twitter link')}}"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="{{url('fb link')}}><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="{{url('pinterest link')}}"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="{{url('instagram link')}}"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="{{url('youtube link')}}"><span class="fab fa-youtube"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="#><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                     </ul>
                 </div>
             </nav>
