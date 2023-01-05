@@ -356,7 +356,7 @@
         <!-- funfact-section end -->--}}
 
 
-        <!-- working-section -->
+        {{--<!-- working-section -->
         <section class="working-section sec-pad">
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-1.png);"></div>
             <div class="auto-container">
@@ -422,7 +422,98 @@
                 </div>
             </div>
         </section>
-        <!-- working-section end -->
+        <!-- working-section end -->--}}
+
+        <!-- project-style-two -->
+        <section class="project-style-two sec-pad">
+            <div class="auto-container">
+                <div class="upper-box clearfix">
+                    <div class="sec-title pull-left">
+                        <div class="title-top">
+                            <div class="shape-box">
+                                <span class="shape shape-1">//</span>
+                            </div>
+                            <h6>Latest Projects</h6>
+                        </div>
+                        <h2>Our Work Across</h2>
+                    </div>
+                    <div class="btn-box pull-right">
+                        <a href="{{url('projects')}}" class="theme-btn btn-one"><i class="flaticon-right-arrow"></i>View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="outer-container">
+                <div class="three-item-carousel owl-carousel owl-theme owl-nav-none">
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <h6>[ Mombasa Port Area ]</h6>
+                                <figure class="image"><img style="width: 520px;height: 329px" src="{{asset('assets/images/street-lighting.jpeg')}}" alt=""></figure>
+                            </div>
+                            <div class="overlay-content">
+                                <h6>[ Mombasa Port Area ]</h6>
+                                <h5><a href="{{url('projects/public-works')}}">Solar street lighting</a></h5>
+                                <div class="view-btn"><a href="{{asset('assets/images/street-lighting.jpeg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zooming"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <h6>[ Two Rivers Mall ]</h6>
+                                <figure class="image"><img  style="width: 520px;height: 329px"  src="{{asset('assets/images/tworivers.png')}}" alt=""></figure>
+                            </div>
+                            <div class="overlay-content">
+                                <h6>[ Two Rivers Mall ]</h6>
+                                <h5><a href="{{url('projects/commercial-sector')}}">1.2MWp plant to 1.45MWp</a></h5>
+                                <div class="view-btn"><a href="{{asset('assets/images/tworivers.png')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zooming"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <h6>[ Gatundu Hospital ]</h6>
+                                <figure class="image"><img  style="width: 520px;height: 329px"  src="{{asset('assets/images/gatundu.png')}}" alt=""></figure>
+                            </div>
+                            <div class="overlay-content">
+                                <h6>[ Gatundu Hospital ]</h6>
+                                <h5><a href="{{url('projects/health-sector')}}">15,000 LITRES SWH</a></h5>
+                                <div class="view-btn"><a href="{{asset('assets/images/gatundu.png')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zooming"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <h6>[ Daystar University ]</h6>
+                                <figure class="image"><img  style="width: 520px;height: 329px"  src="{{asset('assets/images/waterHeating.png')}}" alt=""></figure>
+                            </div>
+                            <div class="overlay-content">
+                                <h6>[ Daystar University ]</h6>
+                                <h5><a href="{{url('projects/education-sector')}}">106KWP PV SYSTEM</a></h5>
+                                <div class="view-btn"><a href="{{asset('assets/images/waterHeating.png')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zooming"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <h6>[ Karen Residential ]</h6>
+                                <figure class="image"><img src="{{asset('assets/images/karem.png')}}" alt=""></figure>
+                            </div>
+                            <div class="overlay-content">
+                                <h6>[ Karen Residential ]</h6>
+                                <h5><a href="{{url('projects/home-systems')}}">COMBINED 20KW OFF-GRID PV SYSTEM</a></h5>
+                                <div class="view-btn"><a href="{{asset('assets/images/karem.png')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zooming"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- project-style-two end -->
 
 
         <!-- clients-section -->
