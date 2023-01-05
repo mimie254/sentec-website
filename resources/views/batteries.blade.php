@@ -41,12 +41,9 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="category-list clearfix">
-                                    <li><a href="#"><i class="fas fa-long-arrow-right"></i>Solar panels<span>[10]</span></a>
-                                    </li>
-                                    <li><a href="#"><i
-                                                class="fas fa-long-arrow-right"></i>Inverters<span>[10]</span></a></li>
-                                    <li><a href="#"><i class="fas fa-long-arrow-right"></i>Batteries<span>[4]</span></a>
-                                    </li>
+                                    <li class="active"><a href="{{url('products/solar')}}"><i class="fas fa-long-arrow-right"></i>Solar panels<span>[4]</span></a></li>
+                                    <li><a href="{{url('products/inverters')}}"><i class="fas fa-long-arrow-right"></i>Inverters<span>[3]</span></a></li>
+                                    <li><a href="{{url('products/batteries')}}"><i class="fas fa-long-arrow-right"></i>Batteries<span>[4]</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -64,19 +61,17 @@
                                     <h5><a href="#">Ritar</a></h5>
                                     <p>
                                     <ul>
-                                        <li>Category: Stand Alone</li>
-                                        <li>Nominal voltage: 12v</li>
-                                        <li>Technology: SLA,Lead Acid</li>
-                                        <li>Nominal capacity: 25-260Ah</li>
-                                        <li>Maximum Length: 710mm</li>
-                                        <li>Maximum Width: 350mm</li>
-                                        <li>Maximum Height: 366mm</li>
-                                        <li>Weight: 8-53Kgs</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Category: Stand Alone</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Nominal voltage: 12v</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Technology: SLA,Lead Acid</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Nominal capacity: 25-260Ah</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Length: 710mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Width: 350mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Height: 366mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Weight: 8-53Kgs</li>
                                     </ul>
                                     </p>
-                                    <div class="btn-box">
-                                        <a href="#"><i class="flaticon-right-arrow"></i>Read More</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -91,19 +86,17 @@
                                     <h5><a href="#">Hoppecke</a></h5>
                                     <p>
                                     <ul>
-                                        <li>Category: Stand Alone,On-grid ,Off-grid</li>
-                                        <li>Nominal voltage: 2-512v</li>
-                                        <li>Technology: AGM,VRLA</li>
-                                        <li>Nominal capacity:4340Ah</li>
-                                        <li>Maximum Length: 308mm</li>
-                                        <li>Maximum Width: 508mm</li>
-                                        <li>Maximum Height: 815mm</li>
-                                        <li>Weight:19-246Kgs</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Category: Stand Alone,On-grid ,Off-grid</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Nominal voltage: 2-512v</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Technology: AGM,VRLA</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Nominal capacity:4340Ah</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Length: 308mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Width: 508mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Height: 815mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Weight:19-246Kgs</li>
                                     </ul>
                                     </p>
-                                    <div class="btn-box">
-                                        <a href="#"><i class="flaticon-right-arrow"></i>Read More</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -118,19 +111,17 @@
                                     <h5><a href="#">Trojan</a></h5>
                                     <p>
                                     <ul>
-                                        <li>Catergory: Stand Alone</li>
-                                        <li>Nominal voltage: 2-12v</li>
-                                        <li>Technology: AGM</li>
-                                        <li>Nominal capacity: 99-2450Ah</li>
-                                        <li>Maximum Length: 28mm</li>
-                                        <li>Maximum Width: 11mm</li>
-                                        <li>Maximum Height: 24mm</li>
-                                        <li>Weight:27-332Kgs</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Catergory: Stand Alone</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Nominal voltage: 2-12v</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Technology: AGM</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Nominal capacity: 99-2450Ah</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Length: 28mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Width: 11mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Height: 24mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Weight:27-332Kgs</li>
                                     </ul>
                                     </p>
-                                    <div class="btn-box">
-                                        <a href="#"><i class="flaticon-right-arrow"></i>Read More</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -145,19 +136,17 @@
                                     <h5><a href="#">Champion</a></h5>
                                     <p>
                                     <ul>
-                                        <li>Catergory: Stand Alone</li>
-                                        <li>Nominal voltage: 2-12v</li>
-                                        <li>Technology: VRLA</li>
-                                        <li> Nominal capacity: 100-1500Ah</li>
-                                        <li>Maximum Length: 400mm</li>
-                                        <li>Maximum Width: 350mm</li>
-                                        <li>Maximum Height: 345mm</li>
-                                        <li>Weight:31-98.5Kgs</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Catergory: Stand Alone</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Nominal voltage: 2-12v</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Technology: VRLA</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}">  Nominal capacity: 100-1500Ah</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Length: 400mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Width: 350mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Maximum Height: 345mm</li>
+                                        <li><img src="{{asset('/assets/images/icons/check-1.png')}}"> Weight:31-98.5Kgs</li>
                                     </ul>
                                     </p>
-                                    <div class="btn-box">
-                                        <a href="#"><i class="flaticon-right-arrow"></i>Read More</a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

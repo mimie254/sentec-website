@@ -137,7 +137,13 @@
                                             <li><a href="{{url('/services/water-heating-systems')}}">Water Heating Systems</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/products')}}">Products</a>
+                                    <li class="dropdown"><a href="{{url('/products/solar')}}">Products</a>
+                                        <ul style="width: 500px">
+                                            <li><a href="{{url('products/solar')}}">Solar Panels</a></li>
+                                            <li><a href="{{url('products/inverters')}}">Inverters</a></li>
+                                            <li><a href="{{url('products/batteries')}}">Batteries</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="{{url('/projects')}}">Projects</a>
                                     </li>
 
