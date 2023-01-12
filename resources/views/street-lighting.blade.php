@@ -66,30 +66,30 @@
                                 <hr>
                                 <figure class="row image-box">
                                     <img style="max-height: 270px"  class="mr-5" src="{{asset('assets/images/s-bypass1.jpeg')}}" alt="">
-                                    <img style="max-height: 270px"src="{{asset('assets/images/s-bypass2.jpeg')}}" alt="">
+                                    <img style="max-height: 270px" src="{{asset('assets/images/s-bypass2.jpeg')}}" alt="">
                                 </figure>
-                                <h6 class="mt-5">Dongo Kundu in Mombasa , solar street lights during the day and at night</h6>
+                                <h6 class="mt-5">Dongo Kundu in Mombasa , solar streetlights during the day and at night</h6>
                                 <hr>
                                 <figure class="row image-box">
-                                    <img style="max-height: 270px" class="mr-5" src="{{asset('assets/images/kundu1.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" src="{{asset('assets/images/kundu2.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5" src="{{asset('assets/images/kundu1.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" src="{{asset('assets/images/kundu2.jpeg')}}" alt="">
 
                                 </figure>
                                 <h6 class="mt-5">Mombasa bypass- high mast lights at the Kenha bridge and sgr parking area</h6>
                                 <hr>
                                 <figure class="row image-box">
-                                    <img style="max-height: 270px" class="mr-5 mb-5" src="{{asset('assets/images/bypass.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass2.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass3.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass4.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass5.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass6.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5" src="{{asset('assets/images/bypass.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass2.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass3.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass4.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass5.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/bypass6.jpeg')}}" alt="">
                                 </figure>
                                 <h6 class="mt-5">Machakos county - Highmasts during the day and at night</h6>
                                 <hr>
                                 <figure class="row image-box">
-                                    <img style="max-height: 270px" class="mr-5 mb-5" src="{{asset('assets/images/macha.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" class="mr-5 mb-5"  src="{{asset('assets/images/macha2.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5" src="{{asset('assets/images/macha.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/macha2.jpeg')}}" alt="">
                                 </figure>
                             </div>
                         </div>

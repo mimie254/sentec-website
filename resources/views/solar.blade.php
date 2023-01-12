@@ -34,6 +34,9 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="category-list clearfix">
+                                    <li><a href="{{url('services/street-lighting')}}"><i
+                                                class="fas fa-angle-right"></i><span>Street Lighting</span></a>
+                                    </li>
                                     <li><a href="{{url('services/lighting-solutions')}}"><i
                                                 class="fas fa-angle-right"></i><span>Lighting Solutions</span></a>
                                     </li>
