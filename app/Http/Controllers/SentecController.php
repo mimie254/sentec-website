@@ -14,6 +14,11 @@ class SentecController extends Controller
     {
         return view ('led');
     }
+
+    public function street()
+    {
+        return view ('street-lighting');
+    }
     public function create()
     {
         return view ('inverter');

@@ -24,6 +24,7 @@ Route::prefix("services")->group(function (){
     Route::get('water-heating-systems',[SentecController::class,'display']);
     Route::get('solar-photovoltaic-systems',[SentecController::class,'make']);
     Route::get('/lighting-solutions',[SentecController::class, 'show']);
+    Route::get('/street-lighting',[SentecController::class, 'street']);
     Route::get('/power-backup-systems',[SentecController::class,'create']);
 });
 

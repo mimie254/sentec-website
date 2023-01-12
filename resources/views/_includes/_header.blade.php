@@ -173,13 +173,10 @@
                                 </ul>
                             </div>
                             <div class="language">
-                                <img src="assets/images/icons/flag-1.png" alt="">
+                                <img src="{{asset('assets/images/icons/flag-1.png')}}" alt="">
                                 <span>En</span>
                                 <ul class="language-dropdown clearfix">
-                                    <li><a href="index.html">English (US)</a></li>
-                                    <li><a href="index.html">English (UK)</a></li>
-                                    <li><a href="index.html">Chines</a></li>
-                                    <li><a href="index.html">Spanish</a></li>
+                                    <li><a href="#">English (US)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -193,7 +190,7 @@
                     <div class="outer-box">
                         <div class="menu-area pull-left clearfix">
                             <div class="logo-box pull-left">
-                                <figure class="logo"><a href="{{url('/')}}"><img src="assets/images/logo.png" alt=""></a></figure>
+                                <figure class="logo"><a href="{{url('/')}}"><img src="{{asset('assets/images/logo.png')}}" alt=""></a></figure>
                             </div>
                             <nav class="main-menu clearfix">
                                 <!--Keep This Empty / Menu will come through Javascript-->
@@ -221,13 +218,13 @@
                                 </ul>
                             </div>
                             <div class="language">
-                                <img src="assets/images/icons/flag-1.png" alt="">
+                                <img src="{{asset('assets/images/icons/flag-1.png')}}" alt="">
                                 <span>En</span>
                                 <ul class="language-dropdown clearfix">
-                                    <li><a href="index.html">English (US)</a></li>
-                                    <li><a href="index.html">English (UK)</a></li>
+                                    <li><a href="#">English (US)</a></li>
+                                   {{-- <li><a href="index.html">English (UK)</a></li>
                                     <li><a href="index.html">Chines</a></li>
-                                    <li><a href="index.html">Spanish</a></li>
+                                    <li><a href="index.html">Spanish</a></li>--}}
                                 </ul>
                             </div>
                         </div>
@@ -256,7 +253,7 @@
                 <div class="social-links">
                     <ul class="clearfix">
                     <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="#><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
                         <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
                         <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="#"><span class="fab fa-youtube"></span></a></li>
