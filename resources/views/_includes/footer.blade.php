@@ -9,7 +9,7 @@
                                 <div class="support-box">
                                     <i class="far fa-envelope-open"></i>
                                     <h6>Free Consult</h6>
-                                    <a href="mailto:info [at] sentecltd.com">info [at] sentecltd.com</a>
+                                    <a href="mailto:info@sentecltd.com">info@sentecltd.com</a>
                                 </div>
                                 <div class="text">
                                     <p>Our goal is to create social economic opportunities to our clients through provision of affordable, sustainable and reliable energy solutions.</p>
@@ -27,7 +27,7 @@
                                         <li><a href="{{url('/team')}}">Our Team</a></li>
                                         <li><a href="{{url('/heater')}}">Services</a></li>
                                         <li><a href="{{url('/project')}}">Projects Portfolio</a></li>
-                                        <li><a href="{{url('/contact')}}">Contact Us</a></li>
+                                        <li><a href="{{url('/contact')}}">Contact Uss</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     <div class="inner-box clearfix">
                         <div class="copyright text-center">
                             <p>Copyright &copy; 2022 <a href="index.html">Sentec</a>. All Rights Reserved.</p>
-                        
+
                 </div>
             </div>
         </footer>

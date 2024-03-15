@@ -65,15 +65,17 @@
                                 <h6 class="mt-5">Mombasa southern bypass - grid tie lights replaced by solar  street lights</h6>
                                 <hr>
                                 <figure class="row image-box">
-                                    <img style="max-height: 270px"  class="mr-5" src="{{asset('assets/images/s-bypass1.jpeg')}}" alt="">
-                                    <img style="max-height: 270px" src="{{asset('assets/images/s-bypass2.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/c1.jpeg')}}" alt="">
+                                    <img style="max-height: 400px" class="mr-5 mb-5"  src="{{asset('assets/images/c2.jpeg')}}" alt="">
+                                    <img style="max-height: 270px" class="mr-5 mb-5"   class="mr-5" src="{{asset('assets/images/s-bypass1.jpeg')}}" alt="">
+
                                 </figure>
                                 <h6 class="mt-5">Dongo Kundu in Mombasa , solar streetlights during the day and at night</h6>
                                 <hr>
                                 <figure class="row image-box">
-                                    <img style="max-height: 400px" class="mr-5" src="{{asset('assets/images/kundu1.jpeg')}}" alt="">
-                                    <img style="max-height: 400px" src="{{asset('assets/images/kundu2.jpeg')}}" alt="">
-
+                                    <img style="max-height: 400px" class="mr-5" src="{{asset('assets/images/streets/dk1.jpg')}}" alt="">
+                                    <br>
+                                    <img style="max-height: 400px" class="mr-5" src="{{asset('assets/images/streets/dkn1.jpg')}}" alt="">
                                 </figure>
                                 <h6 class="mt-5">Mombasa bypass- high mast lights at the Kenha bridge and sgr parking area</h6>
                                 <hr>

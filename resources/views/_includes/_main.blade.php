@@ -202,7 +202,7 @@
                     </div>
                     <div class="nav-right pull-right clearfix">
                         <div class="support-box">
-                            <h5><i class="fas fa-headphones"></i><span>+254 709 750 074</span></h5>
+                            <h5><i class="fas fa-headphones"></i><span>+254 725 445 459</span></h5>
                             <ul class="info-box">
                                 <li>
                                     <i class="far fa-map"></i>
@@ -280,7 +280,7 @@
                             <div class="support-box">
                                 <i class="far fa-envelope-open"></i>
                                 <h6>Free Consult</h6>
-                                <a href="mailto:info [at] sentecltd.com">info [at] sentecltd.com</a>
+                                <a href="mailto:info@sentecltd.com">info@sentecltd.com</a>
                             </div>
                             <div class="text">
                                 <p>Our goal is to create social economic opportunities to our clients through provision
@@ -307,12 +307,12 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                         <div class="footer-widget links-widget">
                             <div class="widget-title">
-                                <h5>Links</h5>
+                                <h5>News letters</h5>
                             </div>
                             <div class="widget-content">
                                 <ul class="links-list clearfix">
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a target="_blank" href="{{asset('assets/nl/Feb Newsletter - SENTEC PRINT OUT.pdf')}}">Feb 2024</a></li>
+                                    <li><a target="_blank" href="{{asset('assets/nl/January 2024 Email Newsletter - SENTEC.pdf')}}">Jan 2024</a></li>
                                 </ul>
                             </div>
                         </div>

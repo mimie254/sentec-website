@@ -41,17 +41,20 @@
                             <div class="shape" style="background-image: url(assets/images/icons/icons-shape-1.png);"></div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="far fa-map"></i></div>
-                                <h6>Address</h6>
+                                <h6>Main Office</h6>
                                 <span>Diani close, off Oledume Rd, Gate 7, Office block 2</span>
                             </div>
                             <div class="single-info-box">
-                                <div class="icon-box"><i class="fas fa-headphones"></i></div>
-                                <h6>Sales Team</h6>
-                                <span><a href="tel:+254 709 750 074">+254 723 435 801</a></span>
+                                <div class="icon-box"><i class="far fa-map"></i></div>
+                                <h6>Regional Offices</h6>
+                                <span>
+                                    Kitengela - Kitengela Mall, Second Floor, Shop 30-09<br><br>
+                                    Kimilili - Chwele, Kimilili Misikhu Road, Opp. Faulu Bank
+                                </span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="far fa-clock"></i></div>
-                                <h6>Off. Hrs</h6>
+                                <h6>Working. Hrs</h6>
                                 <span>Mon - Fri: 08.00 to 05.00</span>
                                 <span>Sat: 08.30 to 12.00</span>
                             </div>
@@ -62,7 +65,7 @@
                             <figure class="image clearfix"><img src="{{asset('assets/images/resource/contact-1.png')}}" alt=""></figure>
                         </div>--}}
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 info-column">
+                    <div class="col-lg-4 col-md-12 col-sm-12 info-column mb-3">
                         <div class="inner-box text-right right-column">
                             <div class="shape" style="background-image: url(assets/images/icons/icons-shape-2.png);"></div>
                             <div class="single-info-box">
@@ -72,13 +75,15 @@
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-headphones"></i></div>
-                                <h6>Marketing</h6>
-                                <span><a href="tel: +254 794 498 460"> +254 712119884</a></span>
+                                <h6>Contact our Teams</h6>
+                                <span>Main: <a href="tel:+254 725445459">+254 725445459</a></span><br>
+                                <span>Marketing: <a href="tel:+254 713 840107"> +254 713 840107</a></span><br>
+                                <span>Sales: <a href="tel:+254 750 248844"> +254 750 248844</a></span>
                             </div>
                             <div class="single-info-box">
                                 <div class="icon-box"><i class="fas fa-question"></i></div>
                                 <h6>Our Faq</h6>
-                                <span>Checkout your answers</span>
+                                <span>-----</span>
                             </div>
                         </div>
                     </div>
