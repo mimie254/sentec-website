@@ -131,15 +131,15 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img style="max-height: 400px" src="{{asset('assets/images/team/faith.jpeg')}}" alt=""></figure>
+                            <figure class="image-box"><img style="max-height: 400px" src="{{asset('assets/images/team/ziporah.jpeg')}}" alt=""></figure>
                             {{--<ul class="social-links clearfix">
                                 <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>--}}
                             <div class="text">
-                                <h5><a href="#">Faith Nafula</a></h5>
-                                <span class="designation">Technical sales manager</span>
+                                <h5><a href="#">Zipporah Wairimu</a></h5>
+                                <span class="designation">HR Business Partner</span>
                             </div>
                         </div>
                     </div>
@@ -147,11 +147,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/bancy.jpeg')}}" alt=""></figure>
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/brian.jpeg')}}" alt=""></figure>
 
                             <div class="text">
-                                <h5><a href="#">Bancy Musembi</a></h5>
-                                <span class="designation">Digital Marketing & Customer relations manager</span>
+                                <h5><a href="#">Brian Were</a></h5>
+                                <span class="designation">Technical Solar sales Engineer</span>
                             </div>
                         </div>
                     </div>
@@ -159,26 +159,15 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/leslie.jpeg')}}" alt=""></figure>
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/cynthia.jpeg')}}" alt=""></figure>
                             {{--<ul class="social-links clearfix">
                                 <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>--}}
                             <div class="text">
-                                <h5><a href="#">Leslie Igiraneza</a></h5>
-                                <span class="designation">Technical sales</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/gibson.jpeg')}}" alt=""></figure>
-                            <div class="text">
-                                <h5><a href="#">Gibson Mwiti</a></h5>
-                                <span class="designation">Technical sales engineer</span>
+                                <h5><a href="#">Cynthia Muhati </a></h5>
+                                <span class="designation">Sales manager</span>
                             </div>
                         </div>
                     </div>
@@ -186,21 +175,10 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/jjoseph.jpeg')}}" alt=""></figure>
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/bonnke.jpeg')}}" alt=""></figure>
                             <div class="text">
-                                <h5><a href="#">Joseph Njeri</a></h5>
-                                <span class="designation">Technician</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/dennis.jpeg')}}" alt=""></figure>
-                            <div class="text">
-                                <h5><a href="#"> Dennis Kamau</a></h5>
-                                <span class="designation">Technician</span>
+                                <h5><a href="#">Bonnke Museeve</a></h5>
+                                <span class="designation">Bonnke Museeve</span>
                             </div>
                         </div>
                     </div>
