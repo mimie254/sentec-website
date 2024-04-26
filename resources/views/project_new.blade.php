@@ -128,6 +128,35 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/kory.jpeg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Kory Family Hospital </span>
+                                        <h3><a href="{{url('/projects/health-sector')}}">29.7 Kwp system</a></h3>
+                                    </div>
+                                    <div class="link">
+                                        <a href="{{url('/projects/health-sector')}}">
+                                            <i class="flaticon-right-arrow"></i><span>More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{url('/projects/health-sector')}}">
+                                            <i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Kory Family Hospital</span>
+                                    <h3><a href="{{url('/projects/health-sector')}}">29.7 Kwp system</a></h3>
+                                    <p>Kimilili</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="upper-box mt-5">
                 <div class="row clearfix">
@@ -236,6 +265,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/kemu.jpeg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">KEMU University</span>
+                                        <h3><a href="{{url('/projects/education-sector')}}">4000L Solar Water Heating </a></h3>
+                                    </div>
+                                    <div class="link"><a href="{{url('/projects/education-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{url('/projects/education-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">KEMU University</span>
+                                    <h3><a href="{{url('/projects/education-sector')}}">4000L Solar Water Heating</a></h3>
+                                    <p>Meru</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="upper-box mt-5">
                 <div class="row clearfix">
@@ -320,6 +373,54 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/gelian.jpeg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Gelian Hotel</span>
+                                        <h3><a href="{{asset('/projects/commercial-sector')}}">132 kWp solar plant </a></h3>
+                                    </div>
+                                    <div class="link"><a href="{{asset('/projects/commercial-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{asset('/projects/commercial-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Gelian hotel</span>
+                                    <h3><a href="{{asset('/projects/commercial-sector')}}">132 kWp solar plant </a></h3>
+                                    <p>Machakos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/sega.jpeg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Sega Lodge</span>
+                                        <h3><a href="{{asset('/projects/commercial-sector')}}">3.45 Kwp system  </a></h3>
+                                    </div>
+                                    <div class="link"><a href="{{asset('/projects/commercial-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{asset('/projects/commercial-sector')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Sega Lodge</span>
+                                    <h3><a href="{{asset('/projects/commercial-sector')}}">3.45 Kwp system  </a></h3>
+                                    <p>3.45 Kwp system .</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="upper-box mt-5">
                 <div class="row clearfix">
@@ -335,7 +436,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-four wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/street-lighting.jpeg')}}" alt=""></figure>
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/mombasa.jpeg')}}" alt=""></figure>
                             <div class="content-box">
                                 <div class="inner">
                                     <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
@@ -430,6 +531,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/sparliament.jpeg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Southern Parliamentary Square</span>
+                                        <h3><a href="{{asset('/projects/public-works')}}">street lighting </a></h3>
+                                    </div>
+                                    <div class="link"><a href="{{asset('/projects/public-works')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{asset('/projects/public-works')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Southern Parliamentary Square </span>
+                                    <h3><a href="{{asset('/projects/public-works')}}">street lighting  </a></h3>
+                                    <p>3 double-arm, 13 single arm solar street lights</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="upper-box mt-5">
                 <div class="row clearfix">
@@ -509,6 +634,54 @@
                                     <span class="category">Rongai</span>
                                     <h3><a href="{{url('projects/home-systems')}}">Combined 10.6 kW PV system and Water pumping</a></h3>
                                     <p>Combined 10.6 kW PV system and Water pumping</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="assets/images/pazuri.jpeg" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Pazuri Estate</span>
+                                        <h3><a href="{{url('projects/home-systems')}}">Solar street lighting </a></h3>
+                                    </div>
+                                    <div class="link"><a href="{{url('projects/home-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{url('projects/home-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Pazuri Estate</span>
+                                    <h3><a href="{{url('projects/home-systems')}}">Solar street lighting </a></h3>
+                                    <p>Pazuri</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="assets/images/sandal.jpeg" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Sandal Wood</span>
+                                        <h3><a href="{{url('projects/home-systems')}}">Solar street lighting </a></h3>
+                                    </div>
+                                    <div class="link"><a href="{{url('projects/home-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{url('projects/home-systems')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Sandal Wood Estate</span>
+                                    <h3><a href="{{url('projects/home-systems')}}">Solar street lighting </a></h3>
+                                    <p>Sandal wood</p>
                                 </div>
                             </div>
                         </div>

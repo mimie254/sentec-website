@@ -81,7 +81,7 @@
 
 
     <!-- statements-section -->
-    <section class="statements-section" style="background-image: url(assets/images/sentecAll.png);">
+    <section class="statements-section" style="background-image: url(assets/images/company.jpeg);">
         <div class="auto-container">
             <div class="tabs-box">
                 <div class="tab-btn-box">

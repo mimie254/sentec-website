@@ -118,7 +118,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div class="image-box">
-                                <figure class="image"><img src="{{asset('assets/images/team/fred.png')}}" alt=""></figure>
+                                <figure class="image"><img src="{{asset('assets/images/team/fred.jpg')}}" alt=""></figure>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                             </ul>--}}
                             <div class="text">
                                 <h5><a href="#">Cynthia Muhati </a></h5>
-                                <span class="designation">Sales manager</span>
+                                <span class="designation">Business Process/Sales Manager</span>
                             </div>
                         </div>
                     </div>
@@ -183,6 +183,73 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/grace.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">Grace Wambugu</a></h5>
+                                <span class="designation">Technical Solar Sales Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/joseph.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">Joseph Kimita </a></h5>
+                                <span class="designation">Technical Department Lead</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/kedrine.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">Kedrine Wangui </a></h5>
+                                <span class="designation">Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/shirlyn.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">Shirlyne Mboya </a></h5>
+                                <span class="designation">HR Assistant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/hillary.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">Hillary Kimutai</a></h5>
+                                <span class="designation">Kimilili Sales Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/cliff.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">Clifford Mulama</a></h5>
+                                <span class="designation">Marketing Executive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

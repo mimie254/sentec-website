@@ -62,10 +62,16 @@
                                 Description: 22.5 Kwp (Grid tie P.V System)<br>
                                 Impact: Injecting over 271000 KwHrs in the system and generating over 6M income to the
                                 Two Rivers
-                                project<br> </p>
+                                project<br>
                                 <h5>Fairdeal Mombasa</h5>
                                 <hr>
-                                Description: 40.2 Kwp (Grid tie P.V System)<br> </p>
+                                Description: 40.2 Kwp (Grid tie P.V System)<br>
+                                <h5>Gelian Hotel Machakos</h5>
+                                <hr>
+                                Description: 132 kWp solar plant <br>
+                                <h5>Sega Lodge</h5>
+                                <hr>
+                                Description: 3.45 Kwp system <br>
                             </div>
                         </div>
 

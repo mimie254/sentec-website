@@ -59,7 +59,7 @@
                                 <hr>
                                 Description: 29Kwp P.V System<br>
                                 Impact: Uninterrupted power supply to the hospital allowing 24hour service
-                                provision. </p>
+                                provision.
 
 
                                 <p><h5>St. Leonard’s Hospital- Kericho (Ongoing Project)</h5>
@@ -67,13 +67,17 @@
                                 Description: 1200 liters (SWH); 20Kwp (P.V System) <br>
                                 Impact: 600 liters SWH installed on site. Reduced power costs since installation of
                                 systems and ceased
-                                usage of electric water heating</p>
+                                usage of electric water heating
 
                                 <p><h5>Gatundu Hospital</h5>
                                 <hr>
                                 Description: 15,000 liters SWH project commissioned in September 2020<br>
                                 Impact: The hospital has managed to save over 400,000/= per month on their electric
-                                bills while supplying hot water to 400 patients and hospital staff daily.</h4>
+                                bills while supplying hot water to 400 patients and hospital staff daily.
+
+                                <p><h5>Kory Family Hospital</h5>
+                                <hr>
+                                Description:  29.7 Kwp system
 
                             </div>
                         </div>

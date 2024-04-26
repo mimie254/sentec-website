@@ -311,6 +311,7 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="links-list clearfix">
+                                    <li><a target="_blank" href="{{asset('assets/nl/EASTER NEWSLETTER.pdf')}}">Mar 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/Feb Newsletter - SENTEC PRINT OUT.pdf')}}">Feb 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/January 2024 Email Newsletter - SENTEC.pdf')}}">Jan 2024</a></li>
                                 </ul>

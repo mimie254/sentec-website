@@ -61,6 +61,13 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-box">
+                        <figure class="image image-2"><img src="{{asset('assets/images/mombasa.jpeg')}}" alt=""></figure>
+                        <div class="overlay-content">
+                            <h5>Mombasa Port Area Road Development</h5>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="image-box">
                         <figure class="image image-2"><img src="{{asset('assets/images/shaurii.png')}}" alt=""></figure>
                         <div class="overlay-content">
                             <h5>Ministry of Housing- Shauri Moyo; Kisumu</h5>
