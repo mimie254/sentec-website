@@ -147,11 +147,10 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/brian.jpeg')}}" alt=""></figure>
-
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/vanessa.jpeg')}}" alt=""></figure>
                             <div class="text">
-                                <h5><a href="#">Brian Were</a></h5>
-                                <span class="designation">Technical Solar sales Engineer</span>
+                                <h5><a href="#">Vanessa Chemutai</a></h5>
+                                <span class="designation">Project Manager</span>
                             </div>
                         </div>
                     </div>
@@ -179,6 +178,17 @@
                             <div class="text">
                                 <h5><a href="#">Bonnke Museeve</a></h5>
                                 <span class="designation">Bonnke Museeve</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/june.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">June Cherono</a></h5>
+                                <span class="designation">Technical Solar sales</span>
                             </div>
                         </div>
                     </div>
@@ -245,6 +255,17 @@
                             <div class="text">
                                 <h5><a href="#">Clifford Mulama</a></h5>
                                 <span class="designation">Marketing Executive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/sharon.jpeg')}}" alt=""></figure>
+                            <div class="text">
+                                <h5><a href="#">Sharon Nyanchama</a></h5>
+                                <span class="designation">Technical Solar sales</span>
                             </div>
                         </div>
                     </div>

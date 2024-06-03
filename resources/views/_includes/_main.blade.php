@@ -147,41 +147,14 @@
                                     </li>
                                     <li><a href="{{url('/projects')}}">Projects</a>
                                     </li>
-
+                                    <li><a target="_blank" href="https://blog.sentecltd.com/">Blog</a>
+                                    </li>
                                     <li><a href="{{url('/contact')}}">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
-                    <div class="nav-right pull-right clearfix">
-                        <div class="support-box">
-                            <h5><i class="fas fa-headphones"></i><span>+254 725 445 459</span></h5>
-                            <ul class="info-box">
-                                <li>
-                                    <i class="far fa-map"></i>
-                                    <h6>Address</h6>
-                                    <span>P.O. Box 103690 – 00101,Nairobi, Kenya.</span>
-                                </li>
-                                <li>
-                                    <i class="far fa-envelope-open"></i>
-                                    <h6>Email</h6>
-                                    <span><a href="mailto:info [at] sentecltd.com">info [at] sentecltd.com</a></span>
-                                </li>
-                                <li>
-                                    <i class="far fa-clock"></i>
-                                    <h6>Off. Hrs</h6>
-                                    <span>Mon - Sat: 9 to 6.30</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="language">
-                            <img src="assets/images/icons/flag-1.png" alt="">
-                            <span>En</span>
-                            <ul class="language-dropdown clearfix">
-                                <li><a href="#">English (US)</a></li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -311,6 +284,7 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="links-list clearfix">
+                                    <li><a target="_blank" href="{{asset('assets/nl/May 2024 NEWSLETTER.pdf')}}">May 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/EASTER NEWSLETTER.pdf')}}">Mar 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/Feb Newsletter - SENTEC PRINT OUT.pdf')}}">Feb 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/January 2024 Email Newsletter - SENTEC.pdf')}}">Jan 2024</a></li>
