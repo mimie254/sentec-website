@@ -79,6 +79,11 @@
                                 <hr>
                                 Description:  29.7 Kwp system
 
+                                <p><h5>Halisi Hospital</h5>
+                                <hr>
+                                Description:  1800 litres low pressure<br>
+                                Impact-  Reduced power costs since installation of systems and ceased usage of electric water heating
+
                             </div>
                         </div>
 

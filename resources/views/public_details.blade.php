@@ -54,6 +54,9 @@
                                 <p><h5>CID Headquarters – Kiambu Road, Nairobi</h5>
                                 <hr>
                                 Description:2,000 Liters of centralized solar water heating systems</p>
+                                <p><h5>Kajiado County Solarization – Kajiado</h5>
+                                <hr>
+                                190KWP off grid PV System</p>
                             </div>
                         </div>
 

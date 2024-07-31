@@ -173,7 +173,7 @@
                             <!--Keep This Empty / Menu will come through Javascript-->
                         </nav>
                     </div>
-                    <div class="nav-right pull-right clearfix">
+                    {{--<div class="nav-right pull-right clearfix">
                         <div class="support-box">
                             <h5><i class="fas fa-headphones"></i><span>+254 725 445 459</span></h5>
                             <ul class="info-box">
@@ -185,7 +185,7 @@
                                 <li>
                                     <i class="far fa-envelope-open"></i>
                                     <h6>Email</h6>
-                                    <span><a href="mailto:info [at] sentecltd.com">info [at] sentecltd.com</a></span>
+                                    <span><a href="mailto:info [at] sentecltd.com">info@sentecltd.com</a></span>
                                 </li>
                                 <li>
                                     <i class="far fa-clock"></i>
@@ -201,7 +201,7 @@
                                 <li><a href="#">English (US)</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>
@@ -223,7 +223,7 @@
                 <ul>
                     <li>P.O. Box 103690 – 00101, Nairobi, Kenya</li>
                     <li><a href="tel:+254 709 750 074">+254 709 750 074</a></li>
-                    <li><a href="mailto: info [at] sentecltd.com"> info [at] sentecltd.com</a></li>
+                    <li><a href="mailto: info [at] sentecltd.com"> info@sentecltd.com</a></li>
                 </ul>
             </div>
             <div class="social-links">
@@ -284,7 +284,9 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="links-list clearfix">
+                                    <li><a target="_blank" href="{{asset('assets/nl/june_nl.pdf')}}">June 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/May 2024 NEWSLETTER.pdf')}}">May 2024</a></li>
+                                    <li><a target="_blank" href="{{asset('assets/nl/april_nl.pdf')}}">April 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/EASTER NEWSLETTER.pdf')}}">Mar 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/Feb Newsletter - SENTEC PRINT OUT.pdf')}}">Feb 2024</a></li>
                                     <li><a target="_blank" href="{{asset('assets/nl/January 2024 Email Newsletter - SENTEC.pdf')}}">Jan 2024</a></li>

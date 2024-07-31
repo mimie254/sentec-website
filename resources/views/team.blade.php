@@ -69,7 +69,7 @@
                                     Eng. Paul Simiyu Mabonga,<br>
                                     Managing Director,<br>
                                     Sentimental Energy Company Ltd.<br>
-                                    (254) 725445459 / 0709750074 / 0738261640<br>
+                                    0709750074 / 0738261640<br>
                                     Nairobi, Diani Close, Off Ole Dume Road, Gate 7<br>
                                 </p>
                             </div>
@@ -145,17 +145,6 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/vanessa.jpeg')}}" alt=""></figure>
-                            <div class="text">
-                                <h5><a href="#">Vanessa Chemutai</a></h5>
-                                <span class="designation">Project Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 team-block mt-2">
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/cynthia.jpeg')}}" alt=""></figure>
@@ -177,7 +166,7 @@
                             <figure class="image-box"><img  style="max-height: 400px" src="{{asset('assets/images/team/bonnke.jpeg')}}" alt=""></figure>
                             <div class="text">
                                 <h5><a href="#">Bonnke Museeve</a></h5>
-                                <span class="designation">Bonnke Museeve</span>
+                                <span class="designation">Solar Sales Engineer</span>
                             </div>
                         </div>
                     </div>

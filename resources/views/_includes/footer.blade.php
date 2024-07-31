@@ -27,7 +27,7 @@
                                         <li><a href="{{url('/team')}}">Our Team</a></li>
                                         <li><a href="{{url('/heater')}}">Services</a></li>
                                         <li><a href="{{url('/project')}}">Projects Portfolio</a></li>
-                                        <li><a href="{{url('/contact')}}">Contact Uss</a></li>
+                                        <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>

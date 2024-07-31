@@ -157,6 +157,35 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/halisi.jpeg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Halisi Hospital </span>
+                                        <h3><a href="{{url('/projects/health-sector')}}">1800 litres low pressure</a></h3>
+                                    </div>
+                                    <div class="link">
+                                        <a href="{{url('/projects/health-sector')}}">
+                                            <i class="flaticon-right-arrow"></i><span>More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{url('/projects/health-sector')}}">
+                                            <i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Halisi Hospital</span>
+                                    <h3><a href="{{url('/projects/health-sector')}}">1800 litres low pressure</a></h3>
+                                    <p>1800 litres low pressure</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="upper-box mt-5">
                 <div class="row clearfix">
@@ -550,6 +579,30 @@
                                     <span class="category">Southern Parliamentary Square </span>
                                     <h3><a href="{{asset('/projects/public-works')}}">street lighting  </a></h3>
                                     <p>3 double-arm, 13 single arm solar street lights</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block mt-2">
+                    <div class="service-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box image-box-elm"><img src="{{asset('assets/images/kajiado.jpg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <div class="inner">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="text">
+                                        <span class="category">Kajiado County Solarization</span>
+                                        <h3><a href="{{asset('/projects/public-works')}}">street lighting </a></h3>
+                                    </div>
+                                    <div class="link"><a href="{{asset('/projects/public-works')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                </div>
+                                <div class="overlay-content">
+                                    <div class="shape-box" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                                    <div class="link"><a href="{{asset('/projects/public-works')}}"><i class="flaticon-right-arrow"></i><span>More</span></a></div>
+                                    <span class="category">Kajiado County Solarization </span>
+                                    <h3><a href="{{asset('/projects/public-works')}}">County Solarization  </a></h3>
+                                    <p>190KWP off grid PV System</p>
                                 </div>
                             </div>
                         </div>
